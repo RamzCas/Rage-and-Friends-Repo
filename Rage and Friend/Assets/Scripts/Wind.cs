@@ -1,16 +1,24 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Wind : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string Tag;
+    public GameObject VolumeBlur;
+
+    private void OnTriggerStay(Collider other)
     {
-        
+        if (other.CompareTag(Tag))
+        {
+          VolumeBlur.SetActive(true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag(Tag))
+        {
+            VolumeBlur.SetActive(false);
+        }
     }
 }
