@@ -8,10 +8,11 @@ public class AnswerQuestions : MonoBehaviour
 {
     private Controls controls;
     private GameObject Player;
+    private CharacterController characterController;
     private GameObject Ball;
     public bool CanAnswer;
     public int Ansered;
-    public float speed = 5; 
+    private float speed = 60; 
 
 
     [Header("Text")]
@@ -24,6 +25,7 @@ public class AnswerQuestions : MonoBehaviour
         controls = new Controls();
         Player = GameObject.FindWithTag("Player");
         Ball = GameObject.FindWithTag("Back");
+        characterController = Player.GetComponent<CharacterController>();
     }
 
     private void OnEnable()
@@ -70,7 +72,8 @@ public class AnswerQuestions : MonoBehaviour
     {
         if (CanAnswer) 
         {
-            Player.transform.Translate(-Player.transform.forward * speed * Time.deltaTime, Space.World);
+            Vector3 move = -Player.transform.forward * speed * Time.deltaTime;
+            characterController.Move(move);
             Ansered++;
             Questions.RemoveAt(0);
         }
@@ -81,6 +84,8 @@ public class AnswerQuestions : MonoBehaviour
     {
         if (CanAnswer)
         {
+            Vector3 move = -Player.transform.forward * speed * Time.deltaTime;
+            characterController.Move(move);
             Ansered++;
             Questions.RemoveAt(0);
         }

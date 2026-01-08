@@ -10,7 +10,6 @@ public class Spike : MonoBehaviour
         {
             Debug.Log("killed");
             Rick = GameObject.FindWithTag("Rick");
-            Rick.SetActive(true);
             //SceneManager.LoadSceneAsync(2);
         }
     }
