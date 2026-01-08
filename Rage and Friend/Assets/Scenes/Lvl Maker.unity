@@ -20567,6 +20567,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3370338371078230350, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116069011702569487, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6152302640247458964, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
       propertyPath: m_Name
       value: Player_
@@ -62761,6 +62769,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 268565777}
+    - target: {fileID: 3811496834867799332, guid: 2a0609dc2677dba4b9a0848cf54aa35e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3865795664752029050, guid: 2a0609dc2677dba4b9a0848cf54aa35e, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -62911,7 +62923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6339293326663155132, guid: 2a0609dc2677dba4b9a0848cf54aa35e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6361279276784904155, guid: 2a0609dc2677dba4b9a0848cf54aa35e, type: 3}
       propertyPath: m_Mesh
@@ -66369,7 +66381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 29280859353941864, guid: 0be07119559222746badf365ad4509a5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 48776530634509995, guid: 0be07119559222746badf365ad4509a5, type: 3}
       propertyPath: m_Mesh
