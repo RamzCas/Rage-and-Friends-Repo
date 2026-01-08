@@ -8,9 +8,10 @@ public class AnswerQuestions : MonoBehaviour
 {
     private Controls controls;
     private GameObject Player;
+    private GameObject Ball;
     public bool CanAnswer;
     public int Ansered;
-    
+    public float speed = 5; 
 
 
     [Header("Text")]
@@ -22,6 +23,7 @@ public class AnswerQuestions : MonoBehaviour
     {
         controls = new Controls();
         Player = GameObject.FindWithTag("Player");
+        Ball = GameObject.FindWithTag("Back");
     }
 
     private void OnEnable()
@@ -68,15 +70,7 @@ public class AnswerQuestions : MonoBehaviour
     {
         if (CanAnswer) 
         {
-            Vector3 ObjAPos = transform.position;
-            Vector3 ObjBPos = Player.transform.position;
-
-            Vector3 Move = ObjBPos - ObjAPos;
-            float Distance = Move.magnitude;
-
-            Vector3 MoveNormalised = Move.normalized;
-            transform.position += MoveNormalised * 20;
-
+            Player.transform.Translate(-Player.transform.forward * speed * Time.deltaTime, Space.World);
             Ansered++;
             Questions.RemoveAt(0);
         }
@@ -87,7 +81,6 @@ public class AnswerQuestions : MonoBehaviour
     {
         if (CanAnswer)
         {
-            Player.transform.transform.position = new Vector3(0, 0, -20);
             Ansered++;
             Questions.RemoveAt(0);
         }
