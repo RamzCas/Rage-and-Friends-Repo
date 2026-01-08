@@ -17,4 +17,9 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("RealIntro");
     }
+
+    public void LoadGame() 
+    {
+        SceneManager.LoadScene("Lvl Build");
+    }
 }
