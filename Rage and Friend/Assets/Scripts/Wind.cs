@@ -4,9 +4,11 @@ using UnityEngine.Rendering;
 public class Wind : MonoBehaviour
 {
     public string Tag;
+    public bool InWind;
     public GameObject VolumeBlur;
     private GameObject Player;
     private CharacterController characterController;
+    public float speed;
 
 
     private void Awake()
@@ -20,9 +22,10 @@ public class Wind : MonoBehaviour
     {
         if (other.CompareTag(Tag))
         {
-          VolumeBlur.SetActive(true);
-            Vector3 move = Player.transform.up * 50f * Time.deltaTime;
+            VolumeBlur.SetActive(true);
+            Vector3 move = Player.transform.up * speed * Time.deltaTime;
             characterController.Move(move);
+            Debug.Log("in Wind");
         }
     }
 
@@ -33,5 +36,10 @@ public class Wind : MonoBehaviour
             VolumeBlur.SetActive(false);
             
         }
+    }
+
+    private void Update()
+    {
+       
     }
 }
