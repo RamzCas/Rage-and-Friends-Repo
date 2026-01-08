@@ -18017,6 +18017,7 @@ GameObject:
   - component: {fileID: 551459987}
   - component: {fileID: 551459986}
   - component: {fileID: 551459985}
+  - component: {fileID: 551459988}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -18115,6 +18116,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551459983}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &551459988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551459983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509be66502e0a014bbd25f6592a79d54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnswerQuestions
 --- !u!43 &554147155
 Mesh:
   m_ObjectHideFlags: 0
@@ -67309,6 +67322,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2122367652}
+    - target: {fileID: 7490248732750387726, guid: 0be07119559222746badf365ad4509a5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7490248732750387726, guid: 0be07119559222746badf365ad4509a5, type: 3}
+      propertyPath: m_TagString
+      value: AnswerDoor
+      objectReference: {fileID: 0}
     - target: {fileID: 7494860538354582862, guid: 0be07119559222746badf365ad4509a5, type: 3}
       propertyPath: m_Mesh
       value: 
