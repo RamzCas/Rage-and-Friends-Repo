@@ -7,4 +7,14 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("Tut scene");
     }
+
+    public void LoadIntro() 
+    {
+        SceneManager.LoadScene("Intro");
+    }
+
+    public void LoadRealTut() 
+    {
+        SceneManager.LoadScene("RealIntro");
+    }
 }
