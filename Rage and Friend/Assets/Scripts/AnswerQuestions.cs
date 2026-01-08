@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEditor.ShaderGraph;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -6,7 +8,14 @@ public class AnswerQuestions : MonoBehaviour
 {
     private Controls controls;
     private GameObject Player;
+    public bool CanAnswer;
     public int Ansered;
+
+
+    [Header("Text")]
+    public List<string> Questions;
+    public TextMeshProUGUI TextMeshProUGUI;
+
 
     private void Awake()
     {
@@ -16,15 +25,22 @@ public class AnswerQuestions : MonoBehaviour
 
     private void OnEnable()
     {
-   
+        controls.Player.Enable();
+        controls.Player.yes.performed += OnYes;
+        controls.Player.no.performed += OnNo;
     }
+
+    private void OnDisable()
+    {
+        controls.Player.Disable();
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Player")) 
         {
             Debug.Log("Can Answer");
-            controls.Player.Enable();
-            
+            CanAnswer = true;
         }
     }
 
@@ -33,20 +49,48 @@ public class AnswerQuestions : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Can't Answer");
-            controls.Player.Disable();
+           CanAnswer = false;
         }
+    }
+
+    private void OnYes(InputAction.CallbackContext ctx) 
+    {
+        AnswerYes();
+    }
+    
+    private void OnNo(InputAction.CallbackContext ctx) 
+    {
+        AnswerNo();
     }
 
     public void AnswerYes() 
     {
-        Player.transform.transform.position = new Vector3 (0,0,-2); 
-        Ansered++;
+        if (CanAnswer) 
+        {
+            Player.transform.transform.position = new Vector3(0, 0, -20);
+            Ansered++;
+            Questions.RemoveAt(0);
+        }
+        
     }
 
     public void AnswerNo() 
     {
-        Player.transform.transform.position = new Vector3(0, 0, -2);
-        Ansered++;
+        if (CanAnswer)
+        {
+            Player.transform.transform.position = new Vector3(0, 0, -20);
+            Ansered++;
+            Questions.RemoveAt(0);
+        }
     }
-    
+
+
+    private void Update()
+    {
+        TextMeshProUGUI.text = Questions[0];
+        if (Ansered > 9) 
+        {
+            Destroy(GameObject.FindWithTag("AnswerDoor"));
+        }
+    }
 }

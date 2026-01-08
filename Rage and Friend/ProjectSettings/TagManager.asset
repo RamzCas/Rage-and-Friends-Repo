@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SkyboxCamera
   - AnswerDoor
+  - Rick
   layers:
   - Default
   - TransparentFX
