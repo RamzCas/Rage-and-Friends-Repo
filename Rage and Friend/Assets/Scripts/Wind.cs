@@ -19,6 +19,7 @@ public class Wind : MonoBehaviour
         if (other.CompareTag(Tag))
         {
             VolumeBlur.SetActive(false);
+            
         }
     }
 }
