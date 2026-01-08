@@ -10,6 +10,7 @@ public class AnswerQuestions : MonoBehaviour
     private GameObject Player;
     public bool CanAnswer;
     public int Ansered;
+    
 
 
     [Header("Text")]
@@ -67,7 +68,15 @@ public class AnswerQuestions : MonoBehaviour
     {
         if (CanAnswer) 
         {
-            Player.transform.transform.position = new Vector3(0, 0, -20);
+            Vector3 ObjAPos = transform.position;
+            Vector3 ObjBPos = Player.transform.position;
+
+            Vector3 Move = ObjBPos - ObjAPos;
+            float Distance = Move.magnitude;
+
+            Vector3 MoveNormalised = Move.normalized;
+            transform.position += MoveNormalised * 20;
+
             Ansered++;
             Questions.RemoveAt(0);
         }
