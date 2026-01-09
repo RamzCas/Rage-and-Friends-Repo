@@ -8,6 +8,7 @@ public class YuuStupid : MonoBehaviour
     private CharacterControler CharacterControler;
     public GameObject Stupid;
     public GameObject RickRoll;
+    public GameObject Clown;
     private void Awake()
     {
         Player = GameObject.FindWithTag("Player");
@@ -26,9 +27,11 @@ public class YuuStupid : MonoBehaviour
     {
         CharacterControler.enabled = false;
         Stupid.SetActive(true);
+        Clown.SetActive(true);
         yield return new WaitForSeconds(5);
+        Clown.SetActive(false);
         RickRoll.SetActive(true);
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4f);
         Destroy(GameObject.FindWithTag("GM"));
         SceneManager.LoadSceneAsync(2);
     }
