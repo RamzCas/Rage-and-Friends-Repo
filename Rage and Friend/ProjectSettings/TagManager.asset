@@ -8,6 +8,7 @@ TagManager:
   - AnswerDoor
   - Rick
   - Back
+  - GM
   layers:
   - Default
   - TransparentFX

@@ -1,15 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Spike : MonoBehaviour
+public class Prism : MonoBehaviour
 {
-    private GameObject Rick;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player")) 
+        if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("killed");
-            //Rick = GameObject.FindWithTag("Rick");
             SceneManager.LoadSceneAsync(2);
             Destroy(GameObject.FindWithTag("GM"));
         }
