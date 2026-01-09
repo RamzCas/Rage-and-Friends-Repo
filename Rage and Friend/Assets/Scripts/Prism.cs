@@ -11,8 +11,9 @@ public class Prism : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && CanKill)
         {
             Debug.Log("killed");
-            SceneManager.LoadSceneAsync(2);
-            Destroy(GameObject.FindWithTag("GM"));
+            /*SceneManager.LoadSceneAsync(2);
+            Destroy(GameObject.FindWithTag("GM"));*/
+            StartCoroutine(KillPlayer());
         }
     }
 
