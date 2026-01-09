@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class SwitchPrism : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public bool Kill;
+    public MeshRenderer MeshRenderer;
+    public Material KillMat;
+    public Material NoKillMat;
+    public Prism prism;
+    
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Player")) 
+        {
+            if (!Kill) 
+            {
+                MeshRenderer.material = NoKillMat;
+                prism.CanKill = false;
+                prism.enabled = false;
+            }
+
+            if (Kill) 
+            {
+                MeshRenderer.material = KillMat;
+                prism.CanKill = true;
+                prism.enabled = true;
+            }
+        }
     }
 }

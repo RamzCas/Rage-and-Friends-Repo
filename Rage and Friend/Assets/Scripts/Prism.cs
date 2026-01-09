@@ -3,9 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class Prism : MonoBehaviour
 {
+    public bool CanKill;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && CanKill)
         {
             Debug.Log("killed");
             SceneManager.LoadSceneAsync(2);
