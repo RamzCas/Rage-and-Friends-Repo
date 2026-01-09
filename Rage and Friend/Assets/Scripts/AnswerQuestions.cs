@@ -12,7 +12,7 @@ public class AnswerQuestions : MonoBehaviour
     private GameObject Ball;
     public bool CanAnswer;
     public int Ansered;
-    private float speed = 60; 
+    private float speed = 80; 
 
 
     [Header("Text")]
