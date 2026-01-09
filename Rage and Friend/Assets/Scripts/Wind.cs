@@ -8,6 +8,7 @@ public class Wind : MonoBehaviour
     public GameObject VolumeBlur;
     private GameObject Player;
     private CharacterController characterController;
+    private CharacterControler characterControler;
     public float speed;
 
 
@@ -15,6 +16,7 @@ public class Wind : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player");
         characterController = Player.GetComponent<CharacterController>();
+        characterControler = Player.GetComponent<CharacterControler>();
     }
 
 
@@ -23,8 +25,7 @@ public class Wind : MonoBehaviour
         if (other.CompareTag(Tag))
         {
             VolumeBlur.SetActive(true);
-            Vector3 move = Player.transform.up * speed * Time.deltaTime;
-            characterController.Move(move);
+            InWind = true;
             Debug.Log("in Wind");
         }
     }
@@ -34,12 +35,21 @@ public class Wind : MonoBehaviour
         if (other.CompareTag(Tag))
         {
             VolumeBlur.SetActive(false);
-            
+            InWind = false;
+            characterControler.CurrentGravity = characterControler.gravity;
+            speed = 5;
         }
     }
 
     private void Update()
     {
+        if (InWind) 
+        {
+            Vector3 move = Player.transform.up * speed * Time.deltaTime;
+            characterController.Move(move);
+            characterControler.CurrentGravity = characterControler.ZeroGravity;
+            speed += 0.5f * Time.deltaTime;
+        }
        
     }
 }

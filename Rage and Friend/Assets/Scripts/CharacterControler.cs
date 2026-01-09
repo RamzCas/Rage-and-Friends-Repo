@@ -6,7 +6,9 @@ public class CharacterControler : MonoBehaviour
     [Header("MOVEMENT SETTINGS")]
     public float moveSpeed = 3f;
     public float lookSpeed = 2f;
+    public float CurrentGravity;
     public float gravity = -9.81f;
+    public float ZeroGravity = 0;
     public float jumpHeight = 1.0f;
     public Transform playerCamera;
 
@@ -32,6 +34,7 @@ public class CharacterControler : MonoBehaviour
         characterController = GetComponent<CharacterController>();
         controls = new Controls();
         currentSpeed = moveSpeed;
+        CurrentGravity = gravity;
     }
 
     private void OnEnable()
@@ -98,7 +101,7 @@ public class CharacterControler : MonoBehaviour
             velocity.y = -2f;
         }
 
-        velocity.y += gravity * Time.deltaTime;
+        velocity.y += CurrentGravity * Time.deltaTime;
         characterController.Move(velocity * Time.deltaTime);
     }
 
