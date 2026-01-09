@@ -928,7 +928,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 939
+  m_VersionIndex: 946
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -948,7 +948,7 @@ MonoBehaviour:
   m_Shape:
     rid: 3256093899915526442
   m_ShapeRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UnmodifiedMeshVersion: 927
+  m_UnmodifiedMeshVersion: 946
   m_Size: {x: 1.72, y: 0.24, z: 1.72}
   m_LocalCenter: {x: 0, y: 0, z: 0}
   references:
@@ -1050,3 +1050,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b232d3abf7576e94ba76b77a8a91607f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Prism
+  CanKill: 0
+  RickRoll: {fileID: 0}
