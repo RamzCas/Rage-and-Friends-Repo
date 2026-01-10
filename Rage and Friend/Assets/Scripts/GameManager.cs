@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Prefabs")]
     public GameObject Lvl1;
     public GameObject Lvl2;
     public GameObject Lvl3;
@@ -15,19 +16,40 @@ public class GameManager : MonoBehaviour
     public GameObject Lvl5;
     public GameObject Lvl6;
 
+    [Header("Arrays")]
     public GameObject[] ChosenLvlsStage;
     public LvlBuilder[] lvlBuilders;
+
+    [Header("Game Management")]
     public int LevelsCompleted;
+    public bool GameInPlay;
 
 
     private void Update()
     {
-        for (int i = 0; i < ChosenLvlsStage.Length; i++)
+        if (GameInPlay) 
         {
             if (LevelsCompleted == 0)
             {
-                ChosenLvlsStage[i].SetActive(true); 
+                ChosenLvlsStage[0].SetActive(false);
             }
+        }
+       
+    }
+
+    public void BuildLevel() 
+    {
+        /*foreach (var lvl in lvlBuilders) 
+         {
+             if(lvl.Lvl1Selected) 
+             {
+                 Debug.Log("lvl 1 built");
+             }
+         }*/
+
+        if (lvlBuilders[0].Lvl1Selected) 
+        {
+        
         }
     }
 

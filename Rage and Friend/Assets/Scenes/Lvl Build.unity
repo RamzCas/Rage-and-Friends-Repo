@@ -163,6 +163,22 @@ PrefabInstance:
       propertyPath: ChosenLvls.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
+      propertyPath: lvlBuilders.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
+      propertyPath: 'lvlBuilders.Array.data[0]'
+      value: 
+      objectReference: {fileID: 828038390}
+    - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
+      propertyPath: 'lvlBuilders.Array.data[1]'
+      value: 
+      objectReference: {fileID: 693092862}
+    - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
+      propertyPath: 'lvlBuilders.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2055363269}
     - target: {fileID: 7930713641784362564, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.38682
@@ -1027,11 +1043,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330219732}
   m_CullTransparentMesh: 1
---- !u!1 &349929149 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9106844660082918092, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
+--- !u!114 &349929150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
   m_PrefabInstance: {fileID: 1645141}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7566643ffc4e8774d85dd4db5995fceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!4 &349929151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7930713641784362564, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
@@ -5797,13 +5819,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 349929149}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 349929150}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: BuildLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
