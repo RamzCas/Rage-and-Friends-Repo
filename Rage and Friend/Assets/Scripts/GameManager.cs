@@ -15,14 +15,20 @@ public class GameManager : MonoBehaviour
     public GameObject Lvl5;
     public GameObject Lvl6;
 
-    public List<GameObject> ChosenLvlsStage;
+    public GameObject[] ChosenLvlsStage;
+    public LvlBuilder[] lvlBuilders;
+    public int LevelsCompleted;
 
 
-    public List<GameObject> LvlSpawns;
-    public void BuildLvl1() 
+    private void Update()
     {
-        //Instantiate(Lvl1, transform.position, transform.rotation);
-        
+        for (int i = 0; i < ChosenLvlsStage.Length; i++)
+        {
+            if (LevelsCompleted == 0)
+            {
+                ChosenLvlsStage[i].SetActive(true); 
+            }
+        }
     }
 
 }

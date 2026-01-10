@@ -21,12 +21,60 @@ public class LvlBuilder : MonoBehaviour
 
     public void SelectedLvl1() 
     {
-        Button1.Select(); 
         Lvl1Selected = true;
         Lvl2Selected = false;
         Lvl3Selected = false;
         Lvl4Selected = false;
         Lvl5Selected = false;
         Lvl6Selected = false;
+    }
+
+    public void SelectedLvl2()
+    {
+        Lvl1Selected = false;
+        Lvl2Selected = true;
+        Lvl3Selected = false;
+        Lvl4Selected = false;
+        Lvl5Selected = false;
+        Lvl6Selected = false;
+    }
+
+    public void SelectedLvl3()
+    {
+        Lvl1Selected = false;
+        Lvl2Selected = false;
+        Lvl3Selected = true;
+        Lvl4Selected = false;
+        Lvl5Selected = false;
+        Lvl6Selected = false;
+    }
+
+    public void SelectedLvl4()
+    {
+        Lvl1Selected = false;
+        Lvl2Selected = false;
+        Lvl3Selected = false;
+        Lvl4Selected = true;
+        Lvl5Selected = false;
+        Lvl6Selected = false;
+    }
+    public void SelectedLvl5()
+    {
+        Lvl1Selected = false;
+        Lvl2Selected = false;
+        Lvl3Selected = false;
+        Lvl4Selected = false;
+        Lvl5Selected = true;
+        Lvl6Selected = false;
+    }
+
+    public void SelectedLvl6()
+    {
+        Lvl1Selected = false;
+        Lvl2Selected = false;
+        Lvl3Selected = false;
+        Lvl4Selected = false;
+        Lvl5Selected = false;
+        Lvl6Selected = true;
     }
 }
