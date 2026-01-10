@@ -28,7 +28,7 @@ public class YuuStupid : MonoBehaviour
         CharacterControler.enabled = false;
         Stupid.SetActive(true);
         Clown.SetActive(true);
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
         Clown.SetActive(false);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4f);

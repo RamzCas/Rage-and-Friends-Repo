@@ -42,7 +42,7 @@ public class BlockPuzzle : MonoBehaviour
     {
         CharacterControler.enabled = false;
         SikeAudio.SetActive(true);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(5);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
         Destroy(GameObject.FindWithTag("GM"));
