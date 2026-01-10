@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 184693284041918751}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.43, y: -0.13, z: 29.3}
+  m_LocalPosition: {x: -3.45, y: -0.13, z: 29.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -815,7 +815,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -941,6 +941,7 @@ GameObject:
   - component: {fileID: 8654270852511812628}
   - component: {fileID: 4923589078952989431}
   - component: {fileID: 9179651682761458693}
+  - component: {fileID: 8051505872028447414}
   m_Layer: 0
   m_Name: Torus (13)
   m_TagString: Untagged
@@ -1313,7 +1314,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1516,6 +1517,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8051505872028447414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260595527737780795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &266557168719265963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,6 +1546,7 @@ GameObject:
   - component: {fileID: 6076741750678825257}
   - component: {fileID: 8831807267863773072}
   - component: {fileID: 4539370925657740633}
+  - component: {fileID: 9185091311949957782}
   m_Layer: 0
   m_Name: Torus (19)
   m_TagString: Untagged
@@ -1904,7 +1919,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2107,6 +2122,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &9185091311949957782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266557168719265963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &347236567896507358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2151,7 @@ GameObject:
   - component: {fileID: 3915292089101361555}
   - component: {fileID: 1965903542868427170}
   - component: {fileID: 2800528141765742832}
+  - component: {fileID: 8601037224853038034}
   m_Layer: 0
   m_Name: Torus (10)
   m_TagString: Untagged
@@ -2495,7 +2524,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -2698,6 +2727,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8601037224853038034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347236567896507358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &364488441078566230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,7 +2988,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7560
+  m_VersionIndex: 7566
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3069,6 +3111,7 @@ GameObject:
   - component: {fileID: 933931613251247751}
   - component: {fileID: 4436093394320932335}
   - component: {fileID: 7911842432315884766}
+  - component: {fileID: 8442471003609949135}
   m_Layer: 0
   m_Name: Torus (32)
   m_TagString: Untagged
@@ -3441,7 +3484,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3644,6 +3687,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8442471003609949135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421088607553499938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &470976377149699073
 GameObject:
   m_ObjectHideFlags: 0
@@ -3660,6 +3716,7 @@ GameObject:
   - component: {fileID: 6855842253839271844}
   - component: {fileID: 5980149353722655051}
   - component: {fileID: 6158436691173318055}
+  - component: {fileID: 7423710643702008267}
   m_Layer: 0
   m_Name: Torus (11)
   m_TagString: Untagged
@@ -4032,7 +4089,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4235,6 +4292,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7423710643702008267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470976377149699073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &535753887497014198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4251,6 +4321,7 @@ GameObject:
   - component: {fileID: 2784194198936082511}
   - component: {fileID: 6502247905096237862}
   - component: {fileID: 5573971351174814509}
+  - component: {fileID: 3849192221906205931}
   m_Layer: 0
   m_Name: Torus (1)
   m_TagString: Untagged
@@ -4623,7 +4694,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4826,6 +4897,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3849192221906205931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535753887497014198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &553194413341549776
 GameObject:
   m_ObjectHideFlags: 0
@@ -4885,6 +4969,7 @@ GameObject:
   - component: {fileID: 7827360347976085694}
   - component: {fileID: 1958676081121609525}
   - component: {fileID: 4861286262850914441}
+  - component: {fileID: 7495391274584724037}
   m_Layer: 0
   m_Name: Torus (14)
   m_TagString: Untagged
@@ -5257,7 +5342,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -5460,6 +5545,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7495391274584724037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624037259868865010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &644570134277890075
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +5640,7 @@ GameObject:
   - component: {fileID: 7019028994803228732}
   - component: {fileID: 218577967666040925}
   - component: {fileID: 4897172924684710038}
+  - component: {fileID: 659896523050065276}
   m_Layer: 0
   m_Name: Torus (5)
   m_TagString: Untagged
@@ -5914,7 +6013,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -6117,6 +6216,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &659896523050065276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697712133731195301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &706535013555766338
 GameObject:
   m_ObjectHideFlags: 0
@@ -6133,6 +6245,7 @@ GameObject:
   - component: {fileID: 1381209706511775437}
   - component: {fileID: 3674555949379459545}
   - component: {fileID: 2141661434434759198}
+  - component: {fileID: 714180893705494113}
   m_Layer: 0
   m_Name: Torus (15)
   m_TagString: Untagged
@@ -6505,7 +6618,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -6708,6 +6821,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &714180893705494113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706535013555766338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &737266593866763711
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,6 +6850,7 @@ GameObject:
   - component: {fileID: 7078053443369474556}
   - component: {fileID: 423472404309388115}
   - component: {fileID: 5179257485143736644}
+  - component: {fileID: 7747507230131800390}
   m_Layer: 0
   m_Name: Torus (29)
   m_TagString: Untagged
@@ -7096,7 +7223,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -7299,6 +7426,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7747507230131800390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737266593866763711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &753467179924831570
 GameObject:
   m_ObjectHideFlags: 0
@@ -7547,7 +7687,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7516
+  m_VersionIndex: 7522
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -7684,7 +7824,7 @@ Transform:
   m_GameObject: {fileID: 847037554335064601}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.22, y: -0.13, z: 26.45}
+  m_LocalPosition: {x: -5.32, y: -0.13, z: 26.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8469,7 +8609,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8595,6 +8735,7 @@ GameObject:
   - component: {fileID: 3534757730067327419}
   - component: {fileID: 397998602415388856}
   - component: {fileID: 1736812227107479629}
+  - component: {fileID: 755252099452781100}
   m_Layer: 0
   m_Name: Torus (6)
   m_TagString: Untagged
@@ -8967,7 +9108,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -9170,6 +9311,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &755252099452781100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906039364856480590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &969431932670124132
 GameObject:
   m_ObjectHideFlags: 0
@@ -9186,6 +9340,7 @@ GameObject:
   - component: {fileID: 7209894848801878341}
   - component: {fileID: 419617396795624022}
   - component: {fileID: 289846863850765555}
+  - component: {fileID: 7494130140427520483}
   m_Layer: 0
   m_Name: Torus (9)
   m_TagString: Untagged
@@ -9558,7 +9713,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -9761,6 +9916,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7494130140427520483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969431932670124132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1194226115684472071
 GameObject:
   m_ObjectHideFlags: 0
@@ -9777,6 +9945,7 @@ GameObject:
   - component: {fileID: 2564137739230922700}
   - component: {fileID: 3879121209970535692}
   - component: {fileID: 3372268712144318644}
+  - component: {fileID: 4404501251324689241}
   m_Layer: 0
   m_Name: Torus (20)
   m_TagString: Untagged
@@ -10149,7 +10318,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -10352,6 +10521,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4404501251324689241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194226115684472071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1238143547784213944
 GameObject:
   m_ObjectHideFlags: 0
@@ -10368,6 +10550,7 @@ GameObject:
   - component: {fileID: 7852146693774635023}
   - component: {fileID: 4869001769537629839}
   - component: {fileID: 6606933706974702018}
+  - component: {fileID: 3446880507111581175}
   m_Layer: 0
   m_Name: Torus (11)
   m_TagString: Untagged
@@ -10740,7 +10923,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -10943,6 +11126,91 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3446880507111581175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238143547784213944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
+--- !u!1 &1255887320149084425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9154065856666665480}
+  - component: {fileID: 775236338475339271}
+  - component: {fileID: 1893710821103810807}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9154065856666665480
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255887320149084425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7610224603467634560}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &775236338475339271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255887320149084425}
+  m_CullTransparentMesh: 1
+--- !u!114 &1893710821103810807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255887320149084425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 9e62893ba997d0a4caedfc66de0114b0, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &1291938110470204203
 GameObject:
   m_ObjectHideFlags: 0
@@ -11070,6 +11338,7 @@ GameObject:
   - component: {fileID: 637382414505940678}
   - component: {fileID: 9002881964392330707}
   - component: {fileID: 5263728802910284212}
+  - component: {fileID: 108961603015409610}
   m_Layer: 0
   m_Name: Torus (8)
   m_TagString: Untagged
@@ -11442,7 +11711,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -11645,6 +11914,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &108961603015409610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371819392308148710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1452612175341849302
 GameObject:
   m_ObjectHideFlags: 0
@@ -11661,6 +11943,7 @@ GameObject:
   - component: {fileID: 1738480551627469787}
   - component: {fileID: 8084540145238972254}
   - component: {fileID: 3708342892602291048}
+  - component: {fileID: 5703598420279964070}
   m_Layer: 0
   m_Name: Torus (10)
   m_TagString: Untagged
@@ -12033,7 +12316,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -12236,6 +12519,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5703598420279964070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452612175341849302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1508095732451977614
 GameObject:
   m_ObjectHideFlags: 0
@@ -13051,7 +13347,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -13177,6 +13473,7 @@ GameObject:
   - component: {fileID: 7734507832686430223}
   - component: {fileID: 1023314014191887105}
   - component: {fileID: 5618202066338079874}
+  - component: {fileID: 9058577846008884163}
   m_Layer: 0
   m_Name: Torus (2)
   m_TagString: Untagged
@@ -13549,7 +13846,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -13752,6 +14049,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &9058577846008884163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660586111198297619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1693931121787263837
 GameObject:
   m_ObjectHideFlags: 0
@@ -13768,6 +14078,7 @@ GameObject:
   - component: {fileID: 8318026036746231580}
   - component: {fileID: 2117468138791886258}
   - component: {fileID: 2594446266254521793}
+  - component: {fileID: 8726378995215712185}
   m_Layer: 0
   m_Name: Torus (4)
   m_TagString: Untagged
@@ -14140,7 +14451,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -14343,6 +14654,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8726378995215712185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693931121787263837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1723114603533309337
 GameObject:
   m_ObjectHideFlags: 0
@@ -14359,6 +14683,7 @@ GameObject:
   - component: {fileID: 8054254634791890111}
   - component: {fileID: 1149290281999413558}
   - component: {fileID: 5104688020660209476}
+  - component: {fileID: 1146963699651453287}
   m_Layer: 0
   m_Name: Torus (17)
   m_TagString: Untagged
@@ -14731,7 +15056,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -14934,6 +15259,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1146963699651453287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723114603533309337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1840277207967286684
 GameObject:
   m_ObjectHideFlags: 0
@@ -14950,6 +15288,7 @@ GameObject:
   - component: {fileID: 2652364460514080857}
   - component: {fileID: 6273233923781046251}
   - component: {fileID: 2255780648880376332}
+  - component: {fileID: 3507203206126212666}
   m_Layer: 0
   m_Name: Torus (21)
   m_TagString: Untagged
@@ -15322,7 +15661,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -15525,6 +15864,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3507203206126212666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840277207967286684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1879633225633303462
 GameObject:
   m_ObjectHideFlags: 0
@@ -15541,6 +15893,7 @@ GameObject:
   - component: {fileID: 30447418299958661}
   - component: {fileID: 2446033651114730513}
   - component: {fileID: 147301253955291292}
+  - component: {fileID: 4536206517696175237}
   m_Layer: 0
   m_Name: Torus (8)
   m_TagString: Untagged
@@ -15913,7 +16266,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -16116,6 +16469,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4536206517696175237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879633225633303462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &1905858202665585681
 GameObject:
   m_ObjectHideFlags: 0
@@ -16425,7 +16791,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2600
+  m_VersionIndex: 2606
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -16548,6 +16914,7 @@ GameObject:
   - component: {fileID: 694544764171572277}
   - component: {fileID: 8009881838083453942}
   - component: {fileID: 7404318561356656657}
+  - component: {fileID: 4738749415465175756}
   m_Layer: 0
   m_Name: Torus (2)
   m_TagString: Untagged
@@ -16920,7 +17287,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -17123,6 +17490,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4738749415465175756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007878272181305841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2054000544735117553
 GameObject:
   m_ObjectHideFlags: 0
@@ -17139,6 +17519,7 @@ GameObject:
   - component: {fileID: 2192296045348412887}
   - component: {fileID: 6096357670240372343}
   - component: {fileID: 3764146829103304236}
+  - component: {fileID: 5509230761342461583}
   m_Layer: 0
   m_Name: Torus (16)
   m_TagString: Untagged
@@ -17511,7 +17892,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -17714,6 +18095,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5509230761342461583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054000544735117553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2351139489756721605
 GameObject:
   m_ObjectHideFlags: 0
@@ -17730,6 +18124,7 @@ GameObject:
   - component: {fileID: 5417702770788731378}
   - component: {fileID: 474738971372596187}
   - component: {fileID: 8283774107500067740}
+  - component: {fileID: 5946933969820753093}
   m_Layer: 0
   m_Name: Torus
   m_TagString: Untagged
@@ -18102,7 +18497,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -18305,6 +18700,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5946933969820753093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2351139489756721605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2353473878812687622
 GameObject:
   m_ObjectHideFlags: 0
@@ -18321,6 +18729,7 @@ GameObject:
   - component: {fileID: 5076326173019920981}
   - component: {fileID: 395588274696859378}
   - component: {fileID: 5576224109082893763}
+  - component: {fileID: 7879808743952753489}
   m_Layer: 0
   m_Name: Torus
   m_TagString: Untagged
@@ -18693,7 +19102,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -18896,6 +19305,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7879808743952753489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2353473878812687622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2480277179611922929
 GameObject:
   m_ObjectHideFlags: 0
@@ -18912,6 +19334,7 @@ GameObject:
   - component: {fileID: 8165464965696922758}
   - component: {fileID: 3836943505768150855}
   - component: {fileID: 7050713690547770647}
+  - component: {fileID: 7068321230458953016}
   m_Layer: 0
   m_Name: Torus (9)
   m_TagString: Untagged
@@ -19284,7 +19707,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -19487,6 +19910,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7068321230458953016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480277179611922929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2573313767902857886
 GameObject:
   m_ObjectHideFlags: 0
@@ -19614,6 +20050,7 @@ GameObject:
   - component: {fileID: 7378621953185789485}
   - component: {fileID: 5809518583325362114}
   - component: {fileID: 4908464572069359861}
+  - component: {fileID: 6346984953221811596}
   m_Layer: 0
   m_Name: Torus (7)
   m_TagString: Untagged
@@ -19986,7 +20423,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -20189,6 +20626,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &6346984953221811596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2809839983157481369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2946861737684147879
 GameObject:
   m_ObjectHideFlags: 0
@@ -20205,6 +20655,7 @@ GameObject:
   - component: {fileID: 2291632270894411388}
   - component: {fileID: 3635017641364974062}
   - component: {fileID: 5941224820975875075}
+  - component: {fileID: 1450681655369767266}
   m_Layer: 0
   m_Name: Torus (24)
   m_TagString: Untagged
@@ -20577,7 +21028,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -20780,6 +21231,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1450681655369767266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2946861737684147879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &2989749008139096729
 GameObject:
   m_ObjectHideFlags: 0
@@ -20796,6 +21260,7 @@ GameObject:
   - component: {fileID: 8322771073443086097}
   - component: {fileID: 6447428305263756520}
   - component: {fileID: 5339754473627332610}
+  - component: {fileID: 256909373573257631}
   m_Layer: 0
   m_Name: Torus (17)
   m_TagString: Untagged
@@ -21168,7 +21633,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -21371,6 +21836,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &256909373573257631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989749008139096729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3055941614548051082
 GameObject:
   m_ObjectHideFlags: 0
@@ -21387,6 +21865,7 @@ GameObject:
   - component: {fileID: 3928502432292743512}
   - component: {fileID: 7893320303440528057}
   - component: {fileID: 4622432035747436487}
+  - component: {fileID: 4894600655199619563}
   m_Layer: 0
   m_Name: Torus (7)
   m_TagString: Untagged
@@ -21759,7 +22238,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -21962,6 +22441,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4894600655199619563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055941614548051082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3241542764616953876
 GameObject:
   m_ObjectHideFlags: 0
@@ -21978,6 +22470,7 @@ GameObject:
   - component: {fileID: 3248806907870905341}
   - component: {fileID: 6098823722364937866}
   - component: {fileID: 5937785573647107550}
+  - component: {fileID: 931722938587959970}
   m_Layer: 0
   m_Name: Torus (26)
   m_TagString: Untagged
@@ -22350,7 +22843,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -22553,6 +23046,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &931722938587959970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241542764616953876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3275500576855753335
 GameObject:
   m_ObjectHideFlags: 0
@@ -22569,6 +23075,7 @@ GameObject:
   - component: {fileID: 1095987477721694705}
   - component: {fileID: 1556272706787148473}
   - component: {fileID: 2877293370761838934}
+  - component: {fileID: 102029483649606967}
   m_Layer: 0
   m_Name: Torus (21)
   m_TagString: Untagged
@@ -22941,7 +23448,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -23144,6 +23651,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &102029483649606967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275500576855753335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3317019710583593682
 GameObject:
   m_ObjectHideFlags: 0
@@ -23160,6 +23680,7 @@ GameObject:
   - component: {fileID: 8393156428157609678}
   - component: {fileID: 2052663054749655154}
   - component: {fileID: 1903989726789462404}
+  - component: {fileID: 2725717916798471857}
   m_Layer: 0
   m_Name: Torus (27)
   m_TagString: Untagged
@@ -23532,7 +24053,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -23735,6 +24256,91 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2725717916798471857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317019710583593682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
+--- !u!1 &3317791118582632226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7503710888983543204}
+  - component: {fileID: 7219232919144031471}
+  m_Layer: 5
+  m_Name: RickRoll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7503710888983543204
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317791118582632226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3138091959684778116}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.0233, y: 0.8098}
+  m_SizeDelta: {x: 1924.011, y: 1074.3008}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!328 &7219232919144031471
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317791118582632226}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: c8b354756a1022b4780ac1e8382acde5, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 9e62893ba997d0a4caedfc66de0114b0, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &3381954205506459011
 GameObject:
   m_ObjectHideFlags: 0
@@ -24550,7 +25156,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -24676,6 +25282,7 @@ GameObject:
   - component: {fileID: 7407850078377588874}
   - component: {fileID: 1245266387665497243}
   - component: {fileID: 472565558052377708}
+  - component: {fileID: 7406161845129476188}
   m_Layer: 0
   m_Name: Torus (8)
   m_TagString: Untagged
@@ -25048,7 +25655,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -25251,6 +25858,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7406161845129476188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3399660894753198825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3476518339639356225
 GameObject:
   m_ObjectHideFlags: 0
@@ -25267,6 +25887,7 @@ GameObject:
   - component: {fileID: 8362075025363272119}
   - component: {fileID: 2654635311339270612}
   - component: {fileID: 2340449958440018775}
+  - component: {fileID: 7768508551819340206}
   m_Layer: 0
   m_Name: Torus (18)
   m_TagString: Untagged
@@ -25639,7 +26260,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -25842,6 +26463,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7768508551819340206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3476518339639356225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3479436717381080878
 GameObject:
   m_ObjectHideFlags: 0
@@ -25891,6 +26525,7 @@ GameObject:
   - component: {fileID: 2254014319024259030}
   - component: {fileID: 1472042934440082427}
   - component: {fileID: 5222609572501946986}
+  - component: {fileID: 1179565222582422442}
   m_Layer: 0
   m_Name: Torus (19)
   m_TagString: Untagged
@@ -26263,7 +26898,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -26466,6 +27101,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1179565222582422442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3649303452226882107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3699561107828420967
 GameObject:
   m_ObjectHideFlags: 0
@@ -26482,6 +27130,7 @@ GameObject:
   - component: {fileID: 1003198605105379981}
   - component: {fileID: 3494999849574873155}
   - component: {fileID: 7380212859478686572}
+  - component: {fileID: 6498784189939768188}
   m_Layer: 0
   m_Name: Torus (34)
   m_TagString: Untagged
@@ -26854,7 +27503,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -27057,6 +27706,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &6498784189939768188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699561107828420967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3728760624323273987
 GameObject:
   m_ObjectHideFlags: 0
@@ -27073,6 +27735,7 @@ GameObject:
   - component: {fileID: 6090890197589239831}
   - component: {fileID: 8926012811378040362}
   - component: {fileID: 5705717643068127637}
+  - component: {fileID: 3277677543387863641}
   m_Layer: 0
   m_Name: Torus (11)
   m_TagString: Untagged
@@ -27445,7 +28108,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -27648,6 +28311,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3277677543387863641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3728760624323273987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3797010967404885712
 GameObject:
   m_ObjectHideFlags: 0
@@ -27664,6 +28340,7 @@ GameObject:
   - component: {fileID: 1269632278615447233}
   - component: {fileID: 3134950161501432705}
   - component: {fileID: 593408409129513557}
+  - component: {fileID: 5636222172473754775}
   m_Layer: 0
   m_Name: Torus (17)
   m_TagString: Untagged
@@ -28036,7 +28713,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -28239,6 +28916,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5636222172473754775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3797010967404885712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &3891239293580664392
 GameObject:
   m_ObjectHideFlags: 0
@@ -28286,6 +28976,7 @@ GameObject:
   - component: {fileID: 4548784870980180394}
   - component: {fileID: 4380626402182006176}
   - component: {fileID: 7523242332906312997}
+  - component: {fileID: 3955273666162989379}
   m_Layer: 0
   m_Name: Torus (15)
   m_TagString: Untagged
@@ -28658,7 +29349,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -28861,6 +29552,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3955273666162989379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465992089863896497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4518247476890001401
 GameObject:
   m_ObjectHideFlags: 0
@@ -29109,7 +29813,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6107
+  m_VersionIndex: 6113
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -29464,7 +30168,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7516
+  m_VersionIndex: 7522
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -30059,7 +30763,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2230
+  m_VersionIndex: 2236
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -30238,6 +30942,7 @@ GameObject:
   - component: {fileID: 9167344144028103183}
   - component: {fileID: 2996242520112955812}
   - component: {fileID: 4059472641256731860}
+  - component: {fileID: 92200113204423484}
   m_Layer: 0
   m_Name: Torus (19)
   m_TagString: Untagged
@@ -30610,7 +31315,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -30813,6 +31518,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &92200113204423484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4652020214874608985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4653432145277542011
 GameObject:
   m_ObjectHideFlags: 0
@@ -30829,6 +31547,7 @@ GameObject:
   - component: {fileID: 1716092812403929505}
   - component: {fileID: 697512967501205020}
   - component: {fileID: 4587066661716169854}
+  - component: {fileID: 746469063922658761}
   m_Layer: 0
   m_Name: Torus (7)
   m_TagString: Untagged
@@ -31201,7 +31920,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -31404,6 +32123,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &746469063922658761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4653432145277542011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4670972269430064004
 GameObject:
   m_ObjectHideFlags: 0
@@ -31420,6 +32152,7 @@ GameObject:
   - component: {fileID: 7524228625518528810}
   - component: {fileID: 622355378826556938}
   - component: {fileID: 6677226491656541819}
+  - component: {fileID: 3569728201449879352}
   m_Layer: 0
   m_Name: Torus (22)
   m_TagString: Untagged
@@ -31792,7 +32525,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -31995,6 +32728,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3569728201449879352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670972269430064004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4835304246179627744
 GameObject:
   m_ObjectHideFlags: 0
@@ -32011,6 +32757,7 @@ GameObject:
   - component: {fileID: 7513640880374438300}
   - component: {fileID: 6665167437874584849}
   - component: {fileID: 6414338783567979302}
+  - component: {fileID: 2413678365336563336}
   m_Layer: 0
   m_Name: Torus (14)
   m_TagString: Untagged
@@ -32383,7 +33130,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -32586,6 +33333,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2413678365336563336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4835304246179627744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4925665605694437898
 GameObject:
   m_ObjectHideFlags: 0
@@ -32602,6 +33362,7 @@ GameObject:
   - component: {fileID: 5032687427748116621}
   - component: {fileID: 3718628049760716764}
   - component: {fileID: 3310449406891263313}
+  - component: {fileID: 47238021215681861}
   m_Layer: 0
   m_Name: Torus
   m_TagString: Untagged
@@ -32974,7 +33735,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -33177,6 +33938,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &47238021215681861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925665605694437898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &4944707608695326544
 GameObject:
   m_ObjectHideFlags: 0
@@ -33193,6 +33967,7 @@ GameObject:
   - component: {fileID: 5760880755927427204}
   - component: {fileID: 3626876940364246906}
   - component: {fileID: 2542409809095253157}
+  - component: {fileID: 4859227402145998340}
   m_Layer: 0
   m_Name: Torus (26)
   m_TagString: Untagged
@@ -33565,7 +34340,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -33768,6 +34543,55 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4859227402145998340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944707608695326544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
+--- !u!1 &4965063347844210786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3138091959684778116}
+  m_Layer: 5
+  m_Name: Videos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3138091959684778116
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4965063347844210786}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7503710888983543204}
+  m_Father: {fileID: 7610224603467634560}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5078049165775842309
 GameObject:
   m_ObjectHideFlags: 0
@@ -33784,6 +34608,7 @@ GameObject:
   - component: {fileID: 3910939694185767710}
   - component: {fileID: 2726766633611555106}
   - component: {fileID: 6960645791982932841}
+  - component: {fileID: 2092057255749267963}
   m_Layer: 0
   m_Name: Torus (18)
   m_TagString: Untagged
@@ -34156,7 +34981,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -34359,6 +35184,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2092057255749267963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5078049165775842309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5382503107198277524
 GameObject:
   m_ObjectHideFlags: 0
@@ -34607,7 +35445,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7516
+  m_VersionIndex: 7522
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -34730,6 +35568,7 @@ GameObject:
   - component: {fileID: 4979681077529822394}
   - component: {fileID: 6072452120672922266}
   - component: {fileID: 5642999396041144554}
+  - component: {fileID: 200859212087542132}
   m_Layer: 0
   m_Name: Torus (12)
   m_TagString: Untagged
@@ -35102,7 +35941,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -35305,6 +36144,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &200859212087542132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383821983726847929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5479990400820121852
 GameObject:
   m_ObjectHideFlags: 0
@@ -35321,6 +36173,7 @@ GameObject:
   - component: {fileID: 3343895255770541527}
   - component: {fileID: 6726127683946995302}
   - component: {fileID: 7087074645628354270}
+  - component: {fileID: 4194159189958986173}
   m_Layer: 0
   m_Name: Torus (25)
   m_TagString: Untagged
@@ -35693,7 +36546,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -35896,6 +36749,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4194159189958986173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479990400820121852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5542431934759571147
 GameObject:
   m_ObjectHideFlags: 0
@@ -35912,6 +36778,7 @@ GameObject:
   - component: {fileID: 539088391104232085}
   - component: {fileID: 4938256735308815474}
   - component: {fileID: 7725577376093308176}
+  - component: {fileID: 9200219521262816112}
   m_Layer: 0
   m_Name: Torus (13)
   m_TagString: Untagged
@@ -36284,7 +37151,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -36487,6 +37354,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &9200219521262816112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5542431934759571147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5579295217526755926
 GameObject:
   m_ObjectHideFlags: 0
@@ -36503,6 +37383,7 @@ GameObject:
   - component: {fileID: 5957395982226367900}
   - component: {fileID: 9068779011366151979}
   - component: {fileID: 7748131608017297804}
+  - component: {fileID: 9068325035408441039}
   m_Layer: 0
   m_Name: Torus (10)
   m_TagString: Untagged
@@ -36875,7 +37756,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -37078,6 +37959,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &9068325035408441039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5579295217526755926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5766242514582463879
 GameObject:
   m_ObjectHideFlags: 0
@@ -37094,6 +37988,7 @@ GameObject:
   - component: {fileID: 4367751889836891806}
   - component: {fileID: 782990884075803423}
   - component: {fileID: 6127042417045910669}
+  - component: {fileID: 7059571742737898666}
   m_Layer: 0
   m_Name: Torus (33)
   m_TagString: Untagged
@@ -37466,7 +38361,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -37669,6 +38564,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7059571742737898666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5766242514582463879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5769981114495431718
 GameObject:
   m_ObjectHideFlags: 0
@@ -37685,6 +38593,7 @@ GameObject:
   - component: {fileID: 2140430107960180885}
   - component: {fileID: 6490958654420587964}
   - component: {fileID: 5717720541084175839}
+  - component: {fileID: 6977169057016821680}
   m_Layer: 0
   m_Name: Torus (22)
   m_TagString: Untagged
@@ -38057,7 +38966,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -38260,6 +39169,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &6977169057016821680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5769981114495431718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5823342654940582549
 GameObject:
   m_ObjectHideFlags: 0
@@ -38276,6 +39198,7 @@ GameObject:
   - component: {fileID: 4872998096008152554}
   - component: {fileID: 3740890406830680218}
   - component: {fileID: 270685425900054706}
+  - component: {fileID: 7172095695335116548}
   m_Layer: 0
   m_Name: Torus (31)
   m_TagString: Untagged
@@ -38648,7 +39571,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -38851,6 +39774,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7172095695335116548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823342654940582549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5861727070981192814
 GameObject:
   m_ObjectHideFlags: 0
@@ -38867,6 +39803,7 @@ GameObject:
   - component: {fileID: 2811783808141935652}
   - component: {fileID: 5531253337804335125}
   - component: {fileID: 6250850608200010389}
+  - component: {fileID: 2744172943477342525}
   m_Layer: 0
   m_Name: Torus (3)
   m_TagString: Untagged
@@ -39239,7 +40176,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -39442,6 +40379,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2744172943477342525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5861727070981192814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &5887813171574133720
 GameObject:
   m_ObjectHideFlags: 0
@@ -39690,7 +40640,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2234
+  m_VersionIndex: 2240
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -40045,7 +40995,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 11750
+  m_VersionIndex: 11756
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -40152,6 +41102,109 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &5960969859519632139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7610224603467634560}
+  - component: {fileID: 6373600916287944269}
+  - component: {fileID: 3888638951185937900}
+  - component: {fileID: 3835437432557465330}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Rick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &7610224603467634560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960969859519632139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9154065856666665480}
+  - {fileID: 3138091959684778116}
+  m_Father: {fileID: 747834267428600804}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &6373600916287944269
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960969859519632139}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &3888638951185937900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960969859519632139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &3835437432557465330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5960969859519632139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &6184663354804496368
 GameObject:
   m_ObjectHideFlags: 0
@@ -40168,6 +41221,7 @@ GameObject:
   - component: {fileID: 8323613543800209735}
   - component: {fileID: 5794714339394166453}
   - component: {fileID: 453589416691567900}
+  - component: {fileID: 9211783058306571610}
   m_Layer: 0
   m_Name: Torus (28)
   m_TagString: Untagged
@@ -40540,7 +41594,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -40743,6 +41797,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &9211783058306571610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184663354804496368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6192203237799862522
 GameObject:
   m_ObjectHideFlags: 0
@@ -40759,6 +41826,7 @@ GameObject:
   - component: {fileID: 1075250737342575609}
   - component: {fileID: 5628257043000422411}
   - component: {fileID: 1609248520881127944}
+  - component: {fileID: 8952628344778033992}
   m_Layer: 0
   m_Name: Torus (16)
   m_TagString: Untagged
@@ -41131,7 +42199,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -41334,6 +42402,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8952628344778033992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192203237799862522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6291631090358744082
 GameObject:
   m_ObjectHideFlags: 0
@@ -41350,6 +42431,7 @@ GameObject:
   - component: {fileID: 1525727406574863872}
   - component: {fileID: 6668965704550161880}
   - component: {fileID: 604873721307021179}
+  - component: {fileID: 5644177034147987795}
   m_Layer: 0
   m_Name: Torus (25)
   m_TagString: Untagged
@@ -41722,7 +42804,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -41925,6 +43007,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5644177034147987795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6291631090358744082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6360473796699718421
 GameObject:
   m_ObjectHideFlags: 0
@@ -41941,6 +43036,7 @@ GameObject:
   - component: {fileID: 628847143014532382}
   - component: {fileID: 2740339433789791036}
   - component: {fileID: 7746889883144772950}
+  - component: {fileID: 4467240716317222184}
   m_Layer: 0
   m_Name: Torus (23)
   m_TagString: Untagged
@@ -42313,7 +43409,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -42516,6 +43612,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4467240716317222184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6360473796699718421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6483260928569294940
 GameObject:
   m_ObjectHideFlags: 0
@@ -42532,6 +43641,7 @@ GameObject:
   - component: {fileID: 80382189857145278}
   - component: {fileID: 5745902258841239439}
   - component: {fileID: 2427943580085028267}
+  - component: {fileID: 8878534120851779273}
   m_Layer: 0
   m_Name: Torus (5)
   m_TagString: Untagged
@@ -42904,7 +44014,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -43107,6 +44217,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8878534120851779273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483260928569294940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6523149372256706480
 GameObject:
   m_ObjectHideFlags: 0
@@ -43123,6 +44246,7 @@ GameObject:
   - component: {fileID: 6064331565568005621}
   - component: {fileID: 7757359547662133831}
   - component: {fileID: 1978142069676018205}
+  - component: {fileID: 2309766119288080499}
   m_Layer: 0
   m_Name: Torus (6)
   m_TagString: Untagged
@@ -43495,7 +44619,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -43698,6 +44822,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2309766119288080499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6523149372256706480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6529503601841728518
 GameObject:
   m_ObjectHideFlags: 0
@@ -43714,6 +44851,7 @@ GameObject:
   - component: {fileID: 1379139293014987087}
   - component: {fileID: 7699268450456440814}
   - component: {fileID: 8432686642605782868}
+  - component: {fileID: 3233469463844091772}
   m_Layer: 0
   m_Name: Torus (4)
   m_TagString: Untagged
@@ -44086,7 +45224,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -44289,6 +45427,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3233469463844091772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6529503601841728518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6582593686264366189
 GameObject:
   m_ObjectHideFlags: 0
@@ -44537,7 +45688,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7516
+  m_VersionIndex: 7522
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -44660,6 +45811,7 @@ GameObject:
   - component: {fileID: 6248066326655541511}
   - component: {fileID: 5917403290701686469}
   - component: {fileID: 1546459028163412474}
+  - component: {fileID: 197893399819005590}
   m_Layer: 0
   m_Name: Torus (6)
   m_TagString: Untagged
@@ -45032,7 +46184,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -45235,6 +46387,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &197893399819005590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6698954637904687403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6758609706238895470
 GameObject:
   m_ObjectHideFlags: 0
@@ -45251,6 +46416,7 @@ GameObject:
   - component: {fileID: 8114323529795071322}
   - component: {fileID: 4986739228869784341}
   - component: {fileID: 5336299435080712630}
+  - component: {fileID: 8149165936107549698}
   m_Layer: 0
   m_Name: Torus (12)
   m_TagString: Untagged
@@ -45623,7 +46789,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -45826,6 +46992,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8149165936107549698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6758609706238895470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6803130148228547483
 GameObject:
   m_ObjectHideFlags: 0
@@ -45842,6 +47021,7 @@ GameObject:
   - component: {fileID: 3806965755269647358}
   - component: {fileID: 5541743745855009693}
   - component: {fileID: 6007486584090469334}
+  - component: {fileID: 53308011682973675}
   m_Layer: 0
   m_Name: Torus (3)
   m_TagString: Untagged
@@ -46214,7 +47394,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -46417,6 +47597,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &53308011682973675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803130148228547483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6804044891356749830
 GameObject:
   m_ObjectHideFlags: 0
@@ -47232,7 +48425,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -47358,6 +48551,7 @@ GameObject:
   - component: {fileID: 1720491214315385004}
   - component: {fileID: 8131647204281427185}
   - component: {fileID: 2109884902440936887}
+  - component: {fileID: 8889424993748916339}
   m_Layer: 0
   m_Name: Torus (23)
   m_TagString: Untagged
@@ -47730,7 +48924,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -47933,6 +49127,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8889424993748916339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6845030935531319675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &6880243027982873638
 GameObject:
   m_ObjectHideFlags: 0
@@ -48181,7 +49388,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 7560
+  m_VersionIndex: 7566
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -48536,7 +49743,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2234
+  m_VersionIndex: 2240
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -48785,6 +49992,7 @@ GameObject:
   - component: {fileID: 8172801323669200675}
   - component: {fileID: 1663888259364264735}
   - component: {fileID: 5252217150549151123}
+  - component: {fileID: 8843564977368199467}
   m_Layer: 0
   m_Name: Torus (3)
   m_TagString: Untagged
@@ -49157,7 +50365,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -49360,6 +50568,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8843564977368199467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6981246220034172845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7021905007254984010
 GameObject:
   m_ObjectHideFlags: 0
@@ -49376,6 +50597,7 @@ GameObject:
   - component: {fileID: 8748119284421662704}
   - component: {fileID: 2578648549965098676}
   - component: {fileID: 6925855320837489244}
+  - component: {fileID: 220292511575731513}
   m_Layer: 0
   m_Name: Torus (15)
   m_TagString: Untagged
@@ -49748,7 +50970,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -49951,6 +51173,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &220292511575731513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021905007254984010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7171033374214358062
 GameObject:
   m_ObjectHideFlags: 0
@@ -50199,7 +51434,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 11090
+  m_VersionIndex: 11096
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -50322,6 +51557,7 @@ GameObject:
   - component: {fileID: 3141156476618001668}
   - component: {fileID: 87237646142178381}
   - component: {fileID: 6579990001366988680}
+  - component: {fileID: 7195879313254425002}
   m_Layer: 0
   m_Name: Torus (9)
   m_TagString: Untagged
@@ -50694,7 +51930,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -50897,6 +52133,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7195879313254425002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272728400879418314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7296180420916303002
 GameObject:
   m_ObjectHideFlags: 0
@@ -50913,6 +52162,7 @@ GameObject:
   - component: {fileID: 2723270382193972035}
   - component: {fileID: 2859735226310875280}
   - component: {fileID: 1813058602571810524}
+  - component: {fileID: 8578331216132157111}
   m_Layer: 0
   m_Name: Torus (28)
   m_TagString: Untagged
@@ -51285,7 +52535,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -51488,6 +52738,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8578331216132157111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296180420916303002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7469760019723763033
 GameObject:
   m_ObjectHideFlags: 0
@@ -51504,6 +52767,7 @@ GameObject:
   - component: {fileID: 3570902722790289033}
   - component: {fileID: 5298095446014381134}
   - component: {fileID: 1668950150820589211}
+  - component: {fileID: 1876347057757657381}
   m_Layer: 0
   m_Name: Torus (30)
   m_TagString: Untagged
@@ -51876,7 +53140,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -52079,6 +53343,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1876347057757657381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469760019723763033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7484700655679077572
 GameObject:
   m_ObjectHideFlags: 0
@@ -52095,6 +53372,7 @@ GameObject:
   - component: {fileID: 6970371874918990938}
   - component: {fileID: 8152191145230629572}
   - component: {fileID: 3849133418350331344}
+  - component: {fileID: 4889401425750901223}
   m_Layer: 0
   m_Name: Torus (4)
   m_TagString: Untagged
@@ -52467,7 +53745,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -52670,6 +53948,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4889401425750901223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7484700655679077572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7531407856104112358
 GameObject:
   m_ObjectHideFlags: 0
@@ -52686,6 +53977,7 @@ GameObject:
   - component: {fileID: 1356351889384345237}
   - component: {fileID: 4919231981981700140}
   - component: {fileID: 2504531553775717190}
+  - component: {fileID: 4511657155156961030}
   m_Layer: 0
   m_Name: Torus (20)
   m_TagString: Untagged
@@ -53058,7 +54350,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -53261,6 +54553,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4511657155156961030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7531407856104112358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7652076840677446077
 GameObject:
   m_ObjectHideFlags: 0
@@ -53277,6 +54582,7 @@ GameObject:
   - component: {fileID: 6137163159138060355}
   - component: {fileID: 589132394697506894}
   - component: {fileID: 3357364566188056329}
+  - component: {fileID: 3971622907570690205}
   m_Layer: 0
   m_Name: Torus (5)
   m_TagString: Untagged
@@ -53649,7 +54955,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -53852,6 +55158,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &3971622907570690205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652076840677446077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &7679786561558810113
 GameObject:
   m_ObjectHideFlags: 0
@@ -54377,7 +55696,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2230
+  m_VersionIndex: 2236
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -54553,6 +55872,7 @@ Transform:
   - {fileID: 8932117139348912648}
   - {fileID: 5043110055443777900}
   - {fileID: 391711654343608335}
+  - {fileID: 7610224603467634560}
   m_Father: {fileID: 3516620993767660092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7910393736391875183
@@ -54571,6 +55891,7 @@ GameObject:
   - component: {fileID: 7034003187266485752}
   - component: {fileID: 5819936673023796738}
   - component: {fileID: 1561914800276709964}
+  - component: {fileID: 6511117397454075834}
   m_Layer: 0
   m_Name: Torus (29)
   m_TagString: Untagged
@@ -54943,7 +56264,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -55146,6 +56467,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &6511117397454075834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7910393736391875183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8030829634608211535
 GameObject:
   m_ObjectHideFlags: 0
@@ -55162,6 +56496,7 @@ GameObject:
   - component: {fileID: 939566539122163093}
   - component: {fileID: 4476328483350844260}
   - component: {fileID: 2438209361224140612}
+  - component: {fileID: 7178073295264695123}
   m_Layer: 0
   m_Name: Torus (13)
   m_TagString: Untagged
@@ -55534,7 +56869,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -55737,6 +57072,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &7178073295264695123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8030829634608211535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8103914116051138109
 GameObject:
   m_ObjectHideFlags: 0
@@ -55753,6 +57101,7 @@ GameObject:
   - component: {fileID: 6465822692438600950}
   - component: {fileID: 1563120523596473150}
   - component: {fileID: 2204476182908244368}
+  - component: {fileID: 4882628091958173964}
   m_Layer: 0
   m_Name: Torus (1)
   m_TagString: Untagged
@@ -56125,7 +57474,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -56328,6 +57677,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4882628091958173964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8103914116051138109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8129167496324894770
 GameObject:
   m_ObjectHideFlags: 0
@@ -56344,6 +57706,7 @@ GameObject:
   - component: {fileID: 7800345698201540764}
   - component: {fileID: 1634685345978744725}
   - component: {fileID: 2999065981932857161}
+  - component: {fileID: 5905761773902154207}
   m_Layer: 0
   m_Name: Torus (27)
   m_TagString: Untagged
@@ -56716,7 +58079,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -56919,6 +58282,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &5905761773902154207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8129167496324894770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8234346205356478286
 GameObject:
   m_ObjectHideFlags: 0
@@ -56935,6 +58311,7 @@ GameObject:
   - component: {fileID: 7700635971638771707}
   - component: {fileID: 5861910848637624202}
   - component: {fileID: 8499681291069519419}
+  - component: {fileID: 424112246816132197}
   m_Layer: 0
   m_Name: Torus (14)
   m_TagString: Untagged
@@ -57307,7 +58684,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -57510,6 +58887,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &424112246816132197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234346205356478286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8489058252017347524
 GameObject:
   m_ObjectHideFlags: 0
@@ -57526,6 +58916,7 @@ GameObject:
   - component: {fileID: 5427949511968909219}
   - component: {fileID: 8928653808340971749}
   - component: {fileID: 8973316460156775307}
+  - component: {fileID: 1378847953113413607}
   m_Layer: 0
   m_Name: Torus (12)
   m_TagString: Untagged
@@ -57898,7 +59289,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -58101,6 +59492,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1378847953113413607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8489058252017347524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8539051208083879737
 GameObject:
   m_ObjectHideFlags: 0
@@ -58955,7 +60359,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 927
+  m_VersionIndex: 933
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -59081,6 +60485,7 @@ GameObject:
   - component: {fileID: 7464695969675932618}
   - component: {fileID: 7213125149702587615}
   - component: {fileID: 311283472985889096}
+  - component: {fileID: 2626987485970647259}
   m_Layer: 0
   m_Name: Torus (1)
   m_TagString: Untagged
@@ -59453,7 +60858,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -59656,6 +61061,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &2626987485970647259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707664310102769847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &8847516686883803984
 GameObject:
   m_ObjectHideFlags: 0
@@ -59672,6 +61090,7 @@ GameObject:
   - component: {fileID: 3450940192553740223}
   - component: {fileID: 1464827025440003961}
   - component: {fileID: 2470940864227358006}
+  - component: {fileID: 1695744068347925033}
   m_Layer: 0
   m_Name: Torus (24)
   m_TagString: Untagged
@@ -60044,7 +61463,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -60247,6 +61666,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &1695744068347925033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847516686883803984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &9043794171843261938
 GameObject:
   m_ObjectHideFlags: 0
@@ -60263,6 +61695,7 @@ GameObject:
   - component: {fileID: 655681433193587559}
   - component: {fileID: 1871570312100521357}
   - component: {fileID: 3037261751849931456}
+  - component: {fileID: 4264251487561322274}
   m_Layer: 0
   m_Name: Torus (16)
   m_TagString: Untagged
@@ -60635,7 +62068,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -60838,6 +62271,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4264251487561322274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043794171843261938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &9194773355624296975
 GameObject:
   m_ObjectHideFlags: 0
@@ -60854,6 +62300,7 @@ GameObject:
   - component: {fileID: 8582874932797086974}
   - component: {fileID: 5054538137371217095}
   - component: {fileID: 8205472152448519643}
+  - component: {fileID: 8737950868420904077}
   m_Layer: 0
   m_Name: Torus (18)
   m_TagString: Untagged
@@ -61226,7 +62673,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -61429,6 +62876,19 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &8737950868420904077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194773355624296975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
 --- !u!1 &9216089055816259828
 GameObject:
   m_ObjectHideFlags: 0
@@ -61445,6 +62905,7 @@ GameObject:
   - component: {fileID: 510435234526076818}
   - component: {fileID: 6901817711473118722}
   - component: {fileID: 581774638618593260}
+  - component: {fileID: 4270380667594627787}
   m_Layer: 0
   m_Name: Torus (2)
   m_TagString: Untagged
@@ -61817,7 +63278,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2046
+  m_VersionIndex: 2052
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -62020,3 +63481,16 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!114 &4270380667594627787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216089055816259828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7902951e73475429860c97cb0118f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spike
+  RickRoll: {fileID: 5960969859519632139}
