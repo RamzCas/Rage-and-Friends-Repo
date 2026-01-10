@@ -8,23 +8,21 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject GameObject;
-    public List<GameObject> GameNames = new List<GameObject>();
-    private void Awake()
+    public GameObject Lvl1;
+    public GameObject Lvl2;
+    public GameObject Lvl3;
+    public GameObject Lvl4;
+    public GameObject Lvl5;
+    public GameObject Lvl6;
+
+    public List<GameObject> ChosenLvlsStage;
+
+
+    public List<GameObject> LvlSpawns;
+    public void BuildLvl1() 
     {
-       DontDestroyOnLoad(this.gameObject);
+        //Instantiate(Lvl1, transform.position, transform.rotation);
         
     }
 
-    private void Update()
-    {
-      
-    }
-
-
-
-    public void create() 
-    {
-     Instantiate(gameObject, new Vector3(0,0,0), Quaternion.identity);
-    }
 }
