@@ -64,7 +64,8 @@ public class GameManager : MonoBehaviour
         if (LoadNewScene) 
         {
             Debug.Log("reload Scene");
-                
+            //SceneManager.LoadScene("Game");   
+            LoadNewScene = false;
         }
     }
 

@@ -29,7 +29,7 @@ public class Spike : MonoBehaviour
     public IEnumerator KillPlayer() 
     {
         RickRoll.SetActive(true);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(4f);
         //Destroy(GameObject.FindWithTag("GM"));
         //Debug.Log("Reload Scene");
         //SceneManager.LoadSceneAsync(2);
