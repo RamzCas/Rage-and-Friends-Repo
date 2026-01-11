@@ -45,7 +45,7 @@ public class BlockPuzzle : MonoBehaviour
         yield return new WaitForSeconds(5);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
-        Destroy(GameObject.FindWithTag("GM"));
+        //Destroy(GameObject.FindWithTag("GM"));
         SceneManager.LoadSceneAsync(2);
     }
 }

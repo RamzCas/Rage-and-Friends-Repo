@@ -32,7 +32,7 @@ public class YuuStupid : MonoBehaviour
         Clown.SetActive(false);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4f);
-        Destroy(GameObject.FindWithTag("GM"));
-        SceneManager.LoadSceneAsync(2);
+        //Destroy(GameObject.FindWithTag("GM"));
+        SceneManager.LoadSceneAsync(5);
     }
 }

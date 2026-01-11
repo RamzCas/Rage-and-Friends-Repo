@@ -21,11 +21,23 @@ public class GameManager : MonoBehaviour
     public List<GameObject> ChosenLvls;
     public LvlBuilder[] lvlBuilders;
     public List<Transform> SpawnPoints;
+    
 
     [Header("Game Management")]
     public int LevelsCompleted;
     public bool GameInPlay;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+
+        if (GameInPlay) 
+        {
+            Instantiate(ChosenLvls[0]);
+            Instantiate(ChosenLvls[1]);
+            Instantiate(ChosenLvls[2]);
+        }
+    }
 
     private void Update()
     {
@@ -36,6 +48,7 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[0].SetActive(true);
                 ChosenLvls[1].SetActive(false);
                 ChosenLvls[2].SetActive(false);
+                Debug.Log("Play lvl 1");
             }
         }
        
@@ -53,6 +66,7 @@ public class GameManager : MonoBehaviour
 
         GameInPlay = true;
         LevelsCompleted += 1;
+        SceneManager.LoadSceneAsync(5);
 
         if (lvlBuilders[0].Lvl1Selected) 
         {

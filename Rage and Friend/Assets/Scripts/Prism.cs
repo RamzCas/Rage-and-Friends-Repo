@@ -22,7 +22,7 @@ public class Prism : MonoBehaviour
     {
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
-        Destroy(GameObject.FindWithTag("GM"));
-        SceneManager.LoadSceneAsync(2);
+        //Destroy(GameObject.FindWithTag("GM"));
+        SceneManager.LoadSceneAsync(5);
     }
 }
