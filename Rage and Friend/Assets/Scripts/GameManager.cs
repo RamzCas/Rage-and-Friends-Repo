@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     {
         if (GameInPlay) 
         {
-            if (LevelsCompleted <= 1)
+            if (LevelsCompleted == 1)
             {
                 ChosenLvls[0].SetActive(true);
                 ChosenLvls[1].SetActive(false);
@@ -50,6 +50,9 @@ public class GameManager : MonoBehaviour
                  Debug.Log("lvl 1 built");
              }
          }*/
+
+        GameInPlay = true;
+        LevelsCompleted += 1;
 
         if (lvlBuilders[0].Lvl1Selected) 
         {
@@ -100,10 +103,68 @@ public class GameManager : MonoBehaviour
             Instantiate(Lvl2, SpawnPoints[1].transform.parent);
             ChosenLvls.Add(Lvl2);
         }
+
         if (lvlBuilders[1].Lvl3Selected)
         {
             Instantiate(Lvl3, SpawnPoints[1].transform.parent);
             ChosenLvls.Add(Lvl3);
+        }
+
+        if (lvlBuilders[1].Lvl4Selected)
+        {
+            Instantiate(Lvl4, SpawnPoints[1].transform.parent);
+            ChosenLvls.Add(Lvl4);
+        }
+
+        if (lvlBuilders[1].Lvl5Selected)
+        {
+            Instantiate(Lvl5, SpawnPoints[1].transform.parent);
+            ChosenLvls.Add(Lvl5);
+        }
+
+        if (lvlBuilders[1].Lvl6Selected)
+        {
+            Instantiate(Lvl6, SpawnPoints[1].transform.parent);
+            ChosenLvls.Add(Lvl6);
+        }
+
+        //=========Lvl3===============
+
+
+        if (lvlBuilders[2].Lvl1Selected)
+        {
+            Instantiate(Lvl1, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl1);
+        }
+
+        if (lvlBuilders[2].Lvl2Selected)
+        {
+            Instantiate(Lvl2, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl2);
+        }
+
+        if (lvlBuilders[2].Lvl3Selected)
+        {
+            Instantiate(Lvl3, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl3);
+        }
+
+        if (lvlBuilders[2].Lvl4Selected)
+        {
+            Instantiate(Lvl4, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl4);
+        }
+
+        if (lvlBuilders[2].Lvl5Selected)
+        {
+            Instantiate(Lvl5, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl5);
+        }
+
+        if (lvlBuilders[2].Lvl6Selected)
+        {
+            Instantiate(Lvl6, SpawnPoints[2].transform.parent);
+            ChosenLvls.Add(Lvl6);
         }
     }
 
