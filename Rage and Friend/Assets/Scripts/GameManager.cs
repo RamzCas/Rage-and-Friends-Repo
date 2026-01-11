@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[0].SetActive(true);
                 ChosenLvls[1].SetActive(false);
                 ChosenLvls[2].SetActive(false);
-                Debug.Log("Play lvl 1");
+                //Debug.Log("Play lvl 1");
             }
         }
        
