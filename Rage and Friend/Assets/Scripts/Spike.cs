@@ -6,6 +6,14 @@ public class Spike : MonoBehaviour
 {
     private GameObject Rick;
     public GameObject RickRoll;
+    private GameObject GM;
+    private GameManager GameManager;
+
+    private void Awake()
+    {
+        GM = GameObject.FindWithTag("GM");
+        GameManager = GM.GetComponent<GameManager>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player")) 
@@ -23,7 +31,8 @@ public class Spike : MonoBehaviour
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
         //Destroy(GameObject.FindWithTag("GM"));
-        Debug.Log("Reload Scene");
-        SceneManager.LoadSceneAsync(2);
+        //Debug.Log("Reload Scene");
+        //SceneManager.LoadSceneAsync(2);
+        GameManager.LoadNewScene = true;    
     }
 }
