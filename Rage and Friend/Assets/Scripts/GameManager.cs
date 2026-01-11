@@ -16,9 +16,11 @@ public class GameManager : MonoBehaviour
     public GameObject Lvl5;
     public GameObject Lvl6;
 
-    [Header("Arrays")]
-    public GameObject[] ChosenLvlsStage;
+    [Header("Arrays/List")]
+    //public GameObject[] ChosenLvlsStage;
+    public List<GameObject> ChosenLvls;
     public LvlBuilder[] lvlBuilders;
+    public List<GameObject> SpawnPoints;
 
     [Header("Game Management")]
     public int LevelsCompleted;
@@ -31,7 +33,9 @@ public class GameManager : MonoBehaviour
         {
             if (LevelsCompleted == 0)
             {
-                ChosenLvlsStage[0].SetActive(false);
+                ChosenLvls[0].SetActive(true);
+                ChosenLvls[1].SetActive(false);
+                ChosenLvls[2].SetActive(false);
             }
         }
        
@@ -49,8 +53,11 @@ public class GameManager : MonoBehaviour
 
         if (lvlBuilders[0].Lvl1Selected) 
         {
-        
+            Instantiate(Lvl1, SpawnPoints[0].transform.parent);
+            ChosenLvls.Add(Lvl1);
         }
+
+        
     }
 
 }
