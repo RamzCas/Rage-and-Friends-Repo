@@ -11,6 +11,8 @@ TagManager:
   - GM
   - Stupid
   - Spawn
+  - Lvl Vid
+  - Player Vid
   layers:
   - Default
   - TransparentFX
