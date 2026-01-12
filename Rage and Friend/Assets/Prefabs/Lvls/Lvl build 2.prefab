@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8846304443529227093
 Transform:
   m_ObjectHideFlags: 0
@@ -889,8 +889,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.9999998, z: 1.2964858}
+  m_Center: {x: 0, y: 0, z: -0.14824551}
 --- !u!114 &1797142961917652313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,18 +906,18 @@ MonoBehaviour:
   CanAnswer: 0
   Ansered: 0
   Questions:
+  - If you were a vegetable, would you want to be a potato
   - 'Have you showered '
   - Are you sure
+  - REALLY
+  - Do u think a hotdog is a sandwitch
+  - Do u belive in god
+  - Do you think pigeons judge your outfit choices
+  - Do you think pigeons judge your outfit choices
+  - Do you prefer pineapple on pizza
+  - Have you slept through a test
   - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
-  - Are you sure
+  - FR FR
   TextMeshProUGUI: {fileID: 4199908004116615749}
 --- !u!1 &956561154936161114
 GameObject:
