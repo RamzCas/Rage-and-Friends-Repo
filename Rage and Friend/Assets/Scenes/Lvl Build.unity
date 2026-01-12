@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
       propertyPath: SpawnPoints.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
       propertyPath: lvlBuilders.Array.size
@@ -250,9 +250,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7930713641784362564, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1473960339}
     - targetCorrespondingSourceObject: {fileID: 7930713641784362564, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1719530146}
@@ -1187,17 +1184,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 349929151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &349929150 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4034400861478082468, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
-  m_PrefabInstance: {fileID: 1645141}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7566643ffc4e8774d85dd4db5995fceb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!4 &349929151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7930713641784362564, guid: 0cbb8f1481928814b814f374e888d291, type: 3}
@@ -5232,8 +5218,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473960338}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.38682, y: 0, z: 41.47911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5241,7 +5227,7 @@ Transform:
   - {fileID: 400149166}
   - {fileID: 1035596370}
   - {fileID: 1898231875}
-  m_Father: {fileID: 349929151}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1575351014
 GameObject:
@@ -6221,9 +6207,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 349929150}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuildLevel
+      - m_Target: {fileID: 1991117153}
+        m_TargetAssemblyTypeName: LvlBuilderManager, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6413,6 +6399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1991117152}
+  - component: {fileID: 1991117153}
   m_Layer: 0
   m_Name: LvlButtonManager
   m_TagString: Untagged
@@ -6435,6 +6422,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1991117153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991117151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d26e59205f43540a59fd720fbc0a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LvlBuilderManager
+  Lvl1: {fileID: 8539051208083879737, guid: b03eb24a62a9a344393657eec3361eb4, type: 3}
+  Lvl2: {fileID: 29280859353941864, guid: 0be07119559222746badf365ad4509a5, type: 3}
+  Lvl3: {fileID: 6339293326663155132, guid: 2a0609dc2677dba4b9a0848cf54aa35e, type: 3}
+  Lvl4: {fileID: 1686956639847555191, guid: ce599b51fe3d33e45ad719acc7427e2d, type: 3}
+  Lvl5: {fileID: 4357862630202774116, guid: 4e5861fb40fcafa44b2403fd47eb0911, type: 3}
+  Lvl6: {fileID: 895535447706288675, guid: ecfde12547c5b8d49934205c94320336, type: 3}
+  lvlBuilders:
+  - {fileID: 828038390}
+  - {fileID: 693092862}
+  - {fileID: 2055363269}
 --- !u!1 &2043694172
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,3 +7245,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1645141}
   - {fileID: 1991117152}
+  - {fileID: 1473960339}

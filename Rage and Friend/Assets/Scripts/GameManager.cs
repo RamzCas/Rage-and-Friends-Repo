@@ -9,45 +9,43 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [Header("Prefabs")]
+    /*[Header("Prefabs")]
     public GameObject Lvl1;
     public GameObject Lvl2;
     public GameObject Lvl3;
     public GameObject Lvl4;
     public GameObject Lvl5;
-    public GameObject Lvl6;
+    public GameObject Lvl6;*/
 
     [Header("Arrays/List")]
     //public GameObject[] ChosenLvlsStage;
     public List<GameObject> ChosenLvls;
-    public LvlBuilder[] lvlBuilders;
-    public List<Transform> SpawnPoints;
+    //public LvlBuilder[] lvlBuilders;
+    //public List<Transform> SpawnPoints;
 
 
     [Header("Game Management")]
     public static GameManager instance;
-    public GameObject CanvasHolder;
+    //public GameObject CanvasHolder;
     public int LevelsCompleted;
     public bool GameInPlay;
     public bool LoadNewScene;
     public bool ReloadLvls;
 
+    private GameObject Spawn;
     private void Awake()
     {
-        if (instance != null) 
-        {
-            Destroy(gameObject);
-        }
-        
-        instance = this;
+       Spawn = GameObject.FindWithTag("Spawn");
         DontDestroyOnLoad(gameObject);
 
         if (GameInPlay) 
         {
             
-            /*Instantiate(ChosenLvls[0]);
-            Instantiate(ChosenLvls[1]);
-            Instantiate(ChosenLvls[2]);*/
+            /*Instantiate(ChosenLvls[0],Spawn.transform);
+            Instantiate(ChosenLvls[1],Spawn.transform);
+            Instantiate(ChosenLvls[2],Spawn.transform);*/
+
+            Debug.Log("Create lvl");
 
         /*    DontDestroyOnLoad(ChosenLvls[0]);
             DontDestroyOnLoad(ChosenLvls[1]);
@@ -62,13 +60,7 @@ public class GameManager : MonoBehaviour
         ReloadScene();
         if (GameInPlay) 
         {
-            if (LevelsCompleted == 0)
-            {
-                ChosenLvls[0].SetActive(false);
-                ChosenLvls[1].SetActive(false);
-                ChosenLvls[2].SetActive(false);
-
-            }
+          
             if (LevelsCompleted == 1)
             {
                 ChosenLvls[0].SetActive(true);
@@ -89,20 +81,20 @@ public class GameManager : MonoBehaviour
             LoadNewScene = false;
          
 
-            if (GameInPlay) 
+           /* if (GameInPlay) 
             {
                 CanvasHolder.SetActive(false);
-            }
+            }*/
         }
     }
 
-    public void BuildLevel() 
+   /* public void BuildLevel() 
     {
         StartCoroutine(LoadLvl());
-    }
+    }*/
 
 
-    private IEnumerator LoadLvl() 
+    /*private IEnumerator LoadLvl() 
     {
         yield return new WaitForSeconds(0);
 
@@ -226,7 +218,7 @@ public class GameManager : MonoBehaviour
         }
 
         SceneManager.LoadSceneAsync(5);
-    }
+    }*/
 }
     
 
