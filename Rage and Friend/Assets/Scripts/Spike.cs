@@ -32,7 +32,10 @@ public class Spike : MonoBehaviour
         yield return new WaitForSeconds(4f);
         //Destroy(GameObject.FindWithTag("GM"));
         //Debug.Log("Reload Scene");
-        //SceneManager.LoadSceneAsync(2);
-        GameManager.LoadNewScene = true;    
+        RickRoll.SetActive(false);
+        GameManager.LoadNewScene = true;
+        GameManager.GameInPlay = false;
+        //SceneManager.LoadSceneAsync(5);
+
     }
 }

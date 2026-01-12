@@ -10,6 +10,7 @@ TagManager:
   - Back
   - GM
   - Stupid
+  - Spawn
   layers:
   - Default
   - TransparentFX
