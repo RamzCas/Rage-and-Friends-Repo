@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ActiveLevels : MonoBehaviour
 {
@@ -35,6 +36,11 @@ public class ActiveLevels : MonoBehaviour
                 Paren.transform.GetChild(0).gameObject.SetActive(false);
                 Paren.transform.GetChild(1).gameObject.SetActive(false);
                 Paren.transform.GetChild(2).gameObject.SetActive(true);
+            }
+
+            if (GameManager.LevelsCompleted == 4)
+            {
+                SceneManager.LoadScene("Out");
             }
         }
        

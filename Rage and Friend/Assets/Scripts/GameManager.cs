@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
         if (LoadNewScene) 
         {
             Debug.Log("reload Scene");
-            SceneManager.LoadSceneAsync(5);
+            SceneManager.LoadScene("Game");
             LoadNewScene = false;
             //GameInPlay = true;
          

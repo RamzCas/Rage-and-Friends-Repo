@@ -52,4 +52,9 @@ public class ButtonManager : MonoBehaviour
 
         PlayerVid.SetActive(true);
     }
+
+    public void Exit() 
+    {
+        Application.Quit();
+    }
 }
