@@ -34,11 +34,17 @@ public class LvlBuilder : MonoBehaviour
         Lvl5Selected = false;
         Lvl6Selected = false;
 
-        //Button1.GetComponent<Image>().color = Color.green;
-        ColorBlock colorGreen = Button1.colors;
-        colorGreen.pressedColor = Color.green;
-        Button1.colors = colorGreen;
+        ColorBlock Green = Button1.colors;
+        Green.normalColor = Color.green;
+        Button1.colors = Green;
 
+        ColorBlock White = Button2.colors;
+        White.normalColor = Color.white;
+        Button2.colors = White;
+        Button3.colors = White;
+        Button4.colors = White;
+        Button5.colors = White;
+        Button6.colors = White;
     }
 
     public void SelectedLvl2()
@@ -49,6 +55,19 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = false;
         Lvl5Selected = false;
         Lvl6Selected = false;
+
+        ColorBlock Green = Button2.colors;
+        Green.normalColor = Color.green;
+        Button2.colors = Green;
+
+        ColorBlock White = Button3.colors;
+        White.normalColor = Color.white;
+        Button3.colors = White;
+        Button1.colors = White;
+        Button4.colors = White;
+        Button5.colors = White;
+        Button6.colors = White;
+
     }
 
     public void SelectedLvl3()
@@ -59,6 +78,19 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = false;
         Lvl5Selected = false;
         Lvl6Selected = false;
+
+
+        ColorBlock Green = Button3.colors;
+        Green.normalColor = Color.green;
+        Button3.colors = Green;
+
+        ColorBlock White = Button4.colors;
+        White.normalColor = Color.white;
+        Button1.colors = White;
+        Button2.colors = White;
+        Button4.colors = White;
+        Button5.colors = White;
+        Button6.colors = White;
     }
 
     public void SelectedLvl4()
@@ -69,6 +101,19 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = true;
         Lvl5Selected = false;
         Lvl6Selected = false;
+
+
+        ColorBlock Green = Button4.colors;
+        Green.normalColor = Color.green;
+        Button4.colors = Green;
+
+        ColorBlock White = Button5.colors;
+        White.normalColor = Color.white;
+        Button1.colors = White;
+        Button2.colors = White;
+        Button3.colors = White;
+        Button4.colors = White;
+        Button6.colors = White;
     }
     public void SelectedLvl5()
     {
@@ -78,6 +123,19 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = false;
         Lvl5Selected = true;
         Lvl6Selected = false;
+
+
+        ColorBlock Green = Button5.colors;
+        Green.normalColor = Color.green;
+        Button5.colors = Green;
+
+        ColorBlock White = Button6.colors;
+        White.normalColor = Color.white;
+        Button1.colors = White;
+        Button2.colors = White;
+        Button3.colors = White;
+        Button4.colors = White;
+        Button6.colors = White;
     }
 
     public void SelectedLvl6()
@@ -88,5 +146,18 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = false;
         Lvl5Selected = false;
         Lvl6Selected = true;
+
+
+        ColorBlock Green = Button6.colors;
+        Green.normalColor = Color.green;
+        Button6.colors = Green;
+
+        ColorBlock White = Button5.colors;
+        White.normalColor = Color.white;
+        Button1.colors = White;
+        Button2.colors = White;
+        Button3.colors = White;
+        Button4.colors = White;
+        Button5.colors = White;
     }
 }

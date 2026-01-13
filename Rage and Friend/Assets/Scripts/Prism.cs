@@ -6,6 +6,15 @@ public class Prism : MonoBehaviour
 {
     public bool CanKill;
     public GameObject RickRoll;
+    private GameObject GM;
+    private GameManager GameManager;
+
+    private void Awake()
+    {
+        GM = GameObject.FindWithTag("GM");
+        GameManager = GM.GetComponent<GameManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player") && CanKill)
@@ -23,6 +32,8 @@ public class Prism : MonoBehaviour
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
         //Destroy(GameObject.FindWithTag("GM"));
-        SceneManager.LoadSceneAsync(5);
+        //SceneManager.LoadSceneAsync(5);
+        RickRoll.SetActive(false);
+        GameManager.LoadNewScene = true;
     }
 }

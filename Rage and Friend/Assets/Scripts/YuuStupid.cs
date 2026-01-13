@@ -9,10 +9,16 @@ public class YuuStupid : MonoBehaviour
     public GameObject Stupid;
     public GameObject RickRoll;
     public GameObject Clown;
+    private GameObject GM;
+    private GameManager GameManager;
+
+  
     private void Awake()
     {
         Player = GameObject.FindWithTag("Player");
         CharacterControler = Player.GetComponent<CharacterControler>();
+        GM = GameObject.FindWithTag("GM");
+        GameManager = GM.GetComponent<GameManager>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +39,8 @@ public class YuuStupid : MonoBehaviour
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4f);
         //Destroy(GameObject.FindWithTag("GM"));
-        SceneManager.LoadSceneAsync(5);
+        //SceneManager.LoadSceneAsync(5);
+        RickRoll.SetActive(false);
+        GameManager.LoadNewScene = true;
     }
 }

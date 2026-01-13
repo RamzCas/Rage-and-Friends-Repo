@@ -1900,7 +1900,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.9924528, g: 0.9924528, b: 0.9924528, a: 1}
     m_HighlightedColor: {r: 0.042086042, g: 0.926857, b: 0.96981126, a: 1}
     m_PressedColor: {r: 0.509434, g: 0.48348168, b: 0.48348168, a: 1}
     m_SelectedColor: {r: 0.0056602955, g: 1, b: 0.10687503, a: 1}
@@ -2847,7 +2847,7 @@ MonoBehaviour:
   Button4: {fileID: 1454848726}
   Button5: {fileID: 279777369}
   Button6: {fileID: 1093810991}
-  Lvl1Selected: 1
+  Lvl1Selected: 0
   Lvl2Selected: 0
   Lvl3Selected: 0
   Lvl4Selected: 0

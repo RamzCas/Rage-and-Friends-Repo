@@ -9,7 +9,8 @@ public class BlockPuzzle : MonoBehaviour
     public GameObject Door;
     public GameObject SikeAudio;
     public GameObject RickRoll;
-
+    private GameObject GM;
+    private GameManager GameManager;
 
     private GameObject Player;
     private CharacterControler CharacterControler;
@@ -18,6 +19,8 @@ public class BlockPuzzle : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player");
         CharacterControler = Player.GetComponent<CharacterControler>();
+        GM = GameObject.FindWithTag("GM");
+        GameManager = GM.GetComponent<GameManager>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,6 +49,8 @@ public class BlockPuzzle : MonoBehaviour
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
         //Destroy(GameObject.FindWithTag("GM"));
-        SceneManager.LoadSceneAsync(2);
+        //SceneManager.LoadSceneAsync(2);
+        RickRoll.SetActive(false);
+        GameManager.LoadNewScene = true;
     }
 }
