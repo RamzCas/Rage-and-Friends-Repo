@@ -1,4 +1,5 @@
 using System.Collections;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,6 +22,7 @@ public class BlockPuzzle : MonoBehaviour
         CharacterControler = Player.GetComponent<CharacterControler>();
         GM = GameObject.FindWithTag("GM");
         GameManager = GM.GetComponent<GameManager>();
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,6 +33,8 @@ public class BlockPuzzle : MonoBehaviour
             {
                 Debug.Log("correct");
                 Destroy(Door);
+                this.gameObject.SetActive(false);
+               
             }
 
             if(Incorrect) 

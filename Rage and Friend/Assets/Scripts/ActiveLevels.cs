@@ -4,6 +4,7 @@ public class ActiveLevels : MonoBehaviour
 {
     private GameObject GM;
     private GameManager GameManager;
+    public GameObject Paren;
 
     private void Awake()
     {
@@ -17,26 +18,26 @@ public class ActiveLevels : MonoBehaviour
 
             if (GameManager.LevelsCompleted == 1)
             {
-                GameManager.ChosenLvls[0].SetActive(true);
-                GameManager.ChosenLvls[1].SetActive(false);
-                GameManager.ChosenLvls[2].SetActive(false);
-                //Debug.Log("Play lvl 1");
+                Paren.transform.GetChild(0).gameObject.SetActive(true);
+                Paren.transform.GetChild(1).gameObject.SetActive(false);
+                Paren.transform.GetChild(2).gameObject.SetActive(false);
             }
 
             if (GameManager.LevelsCompleted == 2)
             {
-                GameManager.ChosenLvls[0].SetActive(false);
-                GameManager.ChosenLvls[1].SetActive(true);
-                GameManager.ChosenLvls[2].SetActive(false);
-                Debug.Log("Next Lvl");
+                Paren.transform.GetChild(0).gameObject.SetActive(false);
+                Paren.transform.GetChild(1).gameObject.SetActive(true);
+                Paren.transform.GetChild(2).gameObject.SetActive(false);
             }
 
             if (GameManager.LevelsCompleted == 3)
             {
-                GameManager.ChosenLvls[0].SetActive(false);
-                GameManager.ChosenLvls[1].SetActive(false);
-                GameManager.ChosenLvls[2].SetActive(true);
+                Paren.transform.GetChild(0).gameObject.SetActive(false);
+                Paren.transform.GetChild(1).gameObject.SetActive(false);
+                Paren.transform.GetChild(2).gameObject.SetActive(true);
             }
         }
+       
+
     }
 }
