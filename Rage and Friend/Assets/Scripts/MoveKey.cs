@@ -50,7 +50,6 @@ public class MoveKey : MonoBehaviour
         if (move == 4)
         {
             OpenDoor = true;
-         
         }
     }
 }

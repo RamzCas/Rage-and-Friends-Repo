@@ -112,7 +112,7 @@ public class LvlBuilder : MonoBehaviour
         Button1.colors = White;
         Button2.colors = White;
         Button3.colors = White;
-        Button4.colors = White;
+        Button5.colors = White;
         Button6.colors = White;
     }
     public void SelectedLvl5()
