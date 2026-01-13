@@ -34,7 +34,7 @@ public class Spike : MonoBehaviour
         //Debug.Log("Reload Scene");
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
-        GameManager.GameInPlay = false;
+        //GameManager.GameInPlay = false;
         //SceneManager.LoadSceneAsync(5);
 
     }

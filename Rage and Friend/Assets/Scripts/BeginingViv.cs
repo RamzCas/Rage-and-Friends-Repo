@@ -14,9 +14,9 @@ public class BeginingViv : MonoBehaviour
         }
         
 
-        if(TimePassed > 5368) 
+        if(TimePassed > 4368) 
         {
-            OverLayContainer.SetActive(true);
+            OverLayContainer.SetActive(false);
             PlayVid = false;
         }
     }

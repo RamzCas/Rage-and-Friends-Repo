@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,11 @@ public class LvlBuilder : MonoBehaviour
     public bool Lvl5Selected;
     public bool Lvl6Selected;
 
+    private void Awake()
+    {
+        
+    }
+
     public void SelectedLvl1() 
     {
         Lvl1Selected = true;
@@ -27,6 +33,12 @@ public class LvlBuilder : MonoBehaviour
         Lvl4Selected = false;
         Lvl5Selected = false;
         Lvl6Selected = false;
+
+        //Button1.GetComponent<Image>().color = Color.green;
+        ColorBlock colorGreen = Button1.colors;
+        colorGreen.pressedColor = Color.green;
+        Button1.colors = colorGreen;
+
     }
 
     public void SelectedLvl2()

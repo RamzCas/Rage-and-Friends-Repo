@@ -68,6 +68,21 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[2].SetActive(false);
                 //Debug.Log("Play lvl 1");
             }
+
+            if (LevelsCompleted == 2)
+            {
+                ChosenLvls[0].SetActive(false);
+                ChosenLvls[1].SetActive(true);
+                ChosenLvls[2].SetActive(false);
+            }
+
+            if (LevelsCompleted == 3)
+            {
+                ChosenLvls[0].SetActive(false);
+                ChosenLvls[1].SetActive(false);
+                ChosenLvls[2].SetActive(true);
+                //Debug.Log("Play lvl 1");
+            }
         }
        
     }
@@ -79,6 +94,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("reload Scene");
             SceneManager.LoadSceneAsync(5);
             LoadNewScene = false;
+            //GameInPlay = true;
          
 
            /* if (GameInPlay) 

@@ -2847,7 +2847,7 @@ MonoBehaviour:
   Button4: {fileID: 1454848726}
   Button5: {fileID: 279777369}
   Button6: {fileID: 1093810991}
-  Lvl1Selected: 0
+  Lvl1Selected: 1
   Lvl2Selected: 0
   Lvl3Selected: 0
   Lvl4Selected: 0
