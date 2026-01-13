@@ -52,5 +52,6 @@ public class BlockPuzzle : MonoBehaviour
         //SceneManager.LoadSceneAsync(2);
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
+        GameManager.LevelsCompleted = 1;
     }
 }

@@ -81,7 +81,6 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[0].SetActive(false);
                 ChosenLvls[1].SetActive(false);
                 ChosenLvls[2].SetActive(true);
-                //Debug.Log("Play lvl 1");
             }
         }
        

@@ -35,5 +35,6 @@ public class Prism : MonoBehaviour
         //SceneManager.LoadSceneAsync(5);
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
+        GameManager.LevelsCompleted = 1;
     }
 }
