@@ -48,6 +48,7 @@ public class BlockPuzzle : MonoBehaviour
 
     public IEnumerator KillPlayer() 
     {
+        Music.SetActive(false);
         CharacterControler.enabled = false;
         SikeAudio.SetActive(true);
         yield return new WaitForSeconds(5);
@@ -58,6 +59,6 @@ public class BlockPuzzle : MonoBehaviour
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
         GameManager.LevelsCompleted = 1;
-        Music.SetActive(false);
+ 
     }
 }

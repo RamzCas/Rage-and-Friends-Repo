@@ -29,6 +29,7 @@ public class Spike : MonoBehaviour
 
     public IEnumerator KillPlayer() 
     {
+        Music.SetActive(false);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4f);
         //Destroy(GameObject.FindWithTag("GM"));
@@ -38,7 +39,7 @@ public class Spike : MonoBehaviour
         GameManager.LevelsCompleted = 1;
         //GameManager.GameInPlay = false;
         //SceneManager.LoadSceneAsync(5);
-        Music.SetActive(false);
+       
 
     }
 }

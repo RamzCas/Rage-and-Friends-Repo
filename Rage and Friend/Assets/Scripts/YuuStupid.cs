@@ -33,6 +33,7 @@ public class YuuStupid : MonoBehaviour
     public IEnumerator KillPlayer() 
     {
         CharacterControler.enabled = false;
+        Music.SetActive(false);
         Stupid.SetActive(true);
         Clown.SetActive(true);
         yield return new WaitForSeconds(4);
@@ -44,6 +45,6 @@ public class YuuStupid : MonoBehaviour
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
         GameManager.LevelsCompleted = 1;
-        Music.SetActive(false);
+       
     }
 }

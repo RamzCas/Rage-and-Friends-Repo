@@ -30,6 +30,7 @@ public class Prism : MonoBehaviour
 
     public IEnumerator KillPlayer()
     {
+        Music.SetActive(false);
         RickRoll.SetActive(true);
         yield return new WaitForSeconds(4);
         //Destroy(GameObject.FindWithTag("GM"));
@@ -37,6 +38,5 @@ public class Prism : MonoBehaviour
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
         GameManager.LevelsCompleted = 1;
-        Music.SetActive(false);
     }
 }
