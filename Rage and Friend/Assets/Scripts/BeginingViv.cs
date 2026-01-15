@@ -6,6 +6,8 @@ public class BeginingViv : MonoBehaviour
     public int TimePassed;
     public bool PlayVid;
 
+   
+
     private void Update()
     {
         if (PlayVid) 
@@ -14,7 +16,7 @@ public class BeginingViv : MonoBehaviour
         }
         
 
-        if(TimePassed > 4368) 
+        if(TimePassed > 2692) 
         {
             OverLayContainer.SetActive(false);
             PlayVid = false;
