@@ -8,6 +8,7 @@ public class Prism : MonoBehaviour
     public GameObject RickRoll;
     private GameObject GM;
     private GameManager GameManager;
+    public GameObject Music;
 
     private void Awake()
     {
@@ -36,5 +37,6 @@ public class Prism : MonoBehaviour
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
         GameManager.LevelsCompleted = 1;
+        Music.SetActive(false);
     }
 }

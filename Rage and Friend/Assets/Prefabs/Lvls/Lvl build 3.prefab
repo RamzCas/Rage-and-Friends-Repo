@@ -2407,7 +2407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wind
   Tag: Player
   InWind: 0
-  VolumeBlur: {fileID: 0}
+  VolumeBlur: {fileID: 7190754820750746070}
   speed: 5
 --- !u!1 &3978333714933490259
 GameObject:
@@ -4151,7 +4151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6539499606373464532
 Transform:
   m_ObjectHideFlags: 0
@@ -8013,6 +8013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 0}
+  Music: {fileID: 0}
 --- !u!1 &8945018701387663097
 GameObject:
   m_ObjectHideFlags: 0
@@ -8457,6 +8458,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -8478,7 +8483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8588,6 +8593,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -8605,7 +8614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8715,6 +8724,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -8732,7 +8745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8842,6 +8855,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -8863,7 +8880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9022,6 +9039,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2659241770093267850, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
   m_PrefabInstance: {fileID: 2286724770882894015}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7105510424263710160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9018401104196365679, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+  m_PrefabInstance: {fileID: 2286724770882894015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7190754820750746070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8968537647170001257, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+  m_PrefabInstance: {fileID: 2286724770882894015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3578795921438805681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9038,6 +9065,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
@@ -9060,7 +9091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9174,6 +9205,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9191,7 +9226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 973
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9301,6 +9336,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9318,15 +9357,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.446
+      value: 2.578
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.281
+      value: 2.895
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9428,6 +9467,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9449,7 +9492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalScale.x
@@ -9571,6 +9614,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9588,7 +9635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9698,6 +9745,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9719,19 +9770,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.46
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.97
+      value: 5.82
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.6
+      value: 8.13
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9829,6 +9880,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -9850,7 +9905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9960,6 +10015,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: CanKill
       value: 1
       objectReference: {fileID: 0}
@@ -9981,7 +10040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10091,6 +10150,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -10112,7 +10175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10222,6 +10285,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -10239,7 +10306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 969
+      value: 972
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10349,6 +10416,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: CanKill
       value: 1
       objectReference: {fileID: 0}
@@ -10370,7 +10441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10480,6 +10551,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: CanKill
       value: 1
       objectReference: {fileID: 0}
@@ -10501,7 +10576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10611,6 +10686,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -10632,7 +10711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10742,6 +10821,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 7105510424263710160}
+    - target: {fileID: 5689570999574888924, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 7117959829677685951}
@@ -10759,7 +10842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8990263050633906799, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_VersionIndex
-      value: 972
+      value: 975
       objectReference: {fileID: 0}
     - target: {fileID: 9094345625435898455, guid: 84df23304114a3f48aaffdca31e037b2, type: 3}
       propertyPath: m_LocalPosition.x

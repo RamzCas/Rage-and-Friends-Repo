@@ -13,6 +13,7 @@ TagManager:
   - Spawn
   - Lvl Vid
   - Player Vid
+  - Music
   layers:
   - Default
   - TransparentFX

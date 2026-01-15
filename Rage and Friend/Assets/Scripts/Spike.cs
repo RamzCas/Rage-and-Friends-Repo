@@ -8,6 +8,7 @@ public class Spike : MonoBehaviour
     public GameObject RickRoll;
     private GameObject GM;
     private GameManager GameManager;
+    public GameObject Music;
 
     private void Awake()
     {
@@ -37,6 +38,7 @@ public class Spike : MonoBehaviour
         GameManager.LevelsCompleted = 1;
         //GameManager.GameInPlay = false;
         //SceneManager.LoadSceneAsync(5);
+        Music.SetActive(false);
 
     }
 }

@@ -10,6 +10,7 @@ public class BlockPuzzle : MonoBehaviour
     public GameObject Door;
     public GameObject SikeAudio;
     public GameObject RickRoll;
+    public GameObject Music;
     private GameObject GM;
     private GameManager GameManager;
 
@@ -57,5 +58,6 @@ public class BlockPuzzle : MonoBehaviour
         RickRoll.SetActive(false);
         GameManager.LoadNewScene = true;
         GameManager.LevelsCompleted = 1;
+        Music.SetActive(false);
     }
 }

@@ -1383,7 +1383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7499810194542228082
 Transform:
   m_ObjectHideFlags: 0
@@ -19463,6 +19463,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6377433073311635658}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 0
       objectReference: {fileID: 0}
@@ -19602,6 +19606,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2659241770093267850, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
   m_PrefabInstance: {fileID: 3096589296715957402}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6331647156253190645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9018401104196365679, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+  m_PrefabInstance: {fileID: 3096589296715957402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4667370833060062748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19634,6 +19643,10 @@ PrefabInstance:
       propertyPath: Door
       value: 
       objectReference: {fileID: 4610096349354031248}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 1
@@ -19754,6 +19767,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6377433073311635658}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 0
       objectReference: {fileID: 0}
@@ -19865,6 +19882,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6377433073311635658}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 0
       objectReference: {fileID: 0}
@@ -19955,6 +19976,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4529574888823103694}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: RickRoll
       value: 
       objectReference: {fileID: 1036349844858929642}
@@ -20044,6 +20069,10 @@ PrefabInstance:
       propertyPath: Door
       value: 
       objectReference: {fileID: 6377433073311635658}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 0
@@ -20138,6 +20167,10 @@ PrefabInstance:
       propertyPath: Door
       value: 
       objectReference: {fileID: 6377433073311635658}
+    - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 6331647156253190645}
     - target: {fileID: 5358458312316504481, guid: 004e5ba135d1d46478a452e22523ee0f, type: 3}
       propertyPath: Correct
       value: 1

@@ -2367,7 +2367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4315110306049786484
 Transform:
   m_ObjectHideFlags: 0
@@ -13234,6 +13234,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 838082589801141956}
     - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 4454839124883051058}
+    - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
       propertyPath: Stupid
       value: 
       objectReference: {fileID: 4662453284495788538}
@@ -13525,6 +13529,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+--- !u!1 &4454839124883051058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9018401104196365679, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+  m_PrefabInstance: {fileID: 4680656806647168861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7210983037339546839 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2659241770093267850, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
@@ -13542,6 +13551,10 @@ PrefabInstance:
       propertyPath: Clown
       value: 
       objectReference: {fileID: 5996299528594461297}
+    - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 4454839124883051058}
     - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
       propertyPath: Stupid
       value: 
@@ -13621,6 +13634,10 @@ PrefabInstance:
       propertyPath: Clown
       value: 
       objectReference: {fileID: 7683220890147585000}
+    - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
+      propertyPath: Music
+      value: 
+      objectReference: {fileID: 4454839124883051058}
     - target: {fileID: 2545785463222373419, guid: c1b283cd2d927ab4cad74e5776315a24, type: 3}
       propertyPath: Stupid
       value: 

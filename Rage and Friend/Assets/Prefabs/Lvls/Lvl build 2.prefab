@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8846304443529227093
 Transform:
   m_ObjectHideFlags: 0
@@ -780,6 +780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &939877634925883238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +1983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1119226899325913466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,6 +2702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1302659102668530912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3660,6 +3663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1520177463080735717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4265,6 +4269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1640040094730360021
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,6 +4954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1885149355112539991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,6 +5560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1891712345781483729
 GameObject:
   m_ObjectHideFlags: 0
@@ -6514,6 +6521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &1955017512174057182
 GameObject:
   m_ObjectHideFlags: 0
@@ -7069,7 +7077,7 @@ Transform:
   m_GameObject: {fileID: 3183715340756694158}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.51, y: -0.13, z: 7.18}
+  m_LocalPosition: {x: -2.51, y: -0.13, z: 7.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8665,6 +8673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &4224190388220930756
 GameObject:
   m_ObjectHideFlags: 0
@@ -9270,6 +9279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &4368959983936985590
 GameObject:
   m_ObjectHideFlags: 0
@@ -9875,6 +9885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &4630751128183264042
 GameObject:
   m_ObjectHideFlags: 0
@@ -9905,7 +9916,7 @@ Transform:
   m_GameObject: {fileID: 4630751128183264042}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.41, y: -0.13, z: 9.27}
+  m_LocalPosition: {x: -0.41, y: -0.13, z: 7.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11405,6 +11416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &5041568480600668323
 GameObject:
   m_ObjectHideFlags: 0
@@ -13326,6 +13338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &5753408414546998803
 GameObject:
   m_ObjectHideFlags: 0
@@ -14286,6 +14299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &6104412923138042701
 GameObject:
   m_ObjectHideFlags: 0
@@ -14891,6 +14905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &6363136979073135825
 GameObject:
   m_ObjectHideFlags: 0
@@ -15496,6 +15511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &6376781446957769536
 GameObject:
   m_ObjectHideFlags: 0
@@ -16237,6 +16253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &6644692468262560576
 GameObject:
   m_ObjectHideFlags: 0
@@ -16842,6 +16859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &6880536741010480032
 GameObject:
   m_ObjectHideFlags: 0
@@ -17447,6 +17465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &7010145421539894613
 GameObject:
   m_ObjectHideFlags: 0
@@ -18997,6 +19016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &7490248732750387726
 GameObject:
   m_ObjectHideFlags: 0
@@ -19634,6 +19654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &7881675725274929198
 GameObject:
   m_ObjectHideFlags: 0
@@ -20239,6 +20260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &8195122883095570667
 GameObject:
   m_ObjectHideFlags: 0
@@ -20844,6 +20866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &8251190751557703613
 GameObject:
   m_ObjectHideFlags: 0
@@ -21449,6 +21472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &8271727530594573409
 GameObject:
   m_ObjectHideFlags: 0
@@ -22054,6 +22078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &8611822351040987403
 GameObject:
   m_ObjectHideFlags: 0
@@ -22659,6 +22684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &8622179137107182137
 GameObject:
   m_ObjectHideFlags: 0
@@ -23864,6 +23890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &9068896560227168229
 GameObject:
   m_ObjectHideFlags: 0
@@ -24469,6 +24496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &9181225115847326227
 GameObject:
   m_ObjectHideFlags: 0
@@ -25074,6 +25102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spike
   RickRoll: {fileID: 1027987547563499396}
+  Music: {fileID: 6328399268947030851}
 --- !u!1 &9194002923759601755
 GameObject:
   m_ObjectHideFlags: 0
@@ -25210,5 +25239,10 @@ PrefabInstance:
 --- !u!4 &1014074979517126054 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2659241770093267850, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
+  m_PrefabInstance: {fileID: 3095434876916112940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6328399268947030851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9018401104196365679, guid: e0ad31130eb62584f8454a436d9a0207, type: 3}
   m_PrefabInstance: {fileID: 3095434876916112940}
   m_PrefabAsset: {fileID: 0}
