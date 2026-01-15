@@ -41,6 +41,8 @@ public class ActiveLevels : MonoBehaviour
             if (GameManager.LevelsCompleted == 4)
             {
                 SceneManager.LoadScene("Out");
+                GameManager.GameInPlay = false;
+                //Cursor.visible = true;
             }
         }
        
