@@ -92,6 +92,8 @@ public class GameManager : MonoBehaviour
         if (GameInPlay)
         {
 
+            Cursor.visible = false;
+
             if (LevelsCompleted == 1)
             {
                 ChosenLvls[0].SetActive(true);
@@ -114,6 +116,12 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[2].SetActive(true);
             }
         }
+
+        else 
+        {
+            Cursor.visible = true;
+        }
+
     }
 
     public void ReloadScene() 
