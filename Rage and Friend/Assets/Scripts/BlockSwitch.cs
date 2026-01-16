@@ -6,6 +6,7 @@ public class BlockSwitch : MonoBehaviour
     public string Tag;
     public GameObject Platform;
     public GameObject TpPoint;
+    public GameObject Music;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +14,7 @@ public class BlockSwitch : MonoBehaviour
         {
             Debug.Log("Move");
             Platform.transform.position = TpPoint.transform.position;
-            
+            Music.SetActive(true);
         }
     }
 }
