@@ -42,7 +42,7 @@ public class ButtonManager : MonoBehaviour
 
     public void LbVid() 
     {
-        StartCoroutine(PlayLbVid());  
+        //StartCoroutine(PlayLbVid());  
     }
 
     public void PLayerVid()
@@ -55,7 +55,7 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
-    public IEnumerator PlayLbVid() 
+    /*public IEnumerator PlayLbVid() 
     {
         foreach(var button in Buttons) 
         {
@@ -77,5 +77,5 @@ public class ButtonManager : MonoBehaviour
             PlayerVid.SetActive(false);
             button.SetActive(true);
         }
-    }
+    }*/
 }

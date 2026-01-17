@@ -42,7 +42,11 @@ public class ActiveLevels : MonoBehaviour
             {
                 SceneManager.LoadScene("Out");
                 GameManager.GameInPlay = false;
-                //Cursor.visible = true;
+                Cursor.visible = true;
+                /*GameManager.LevelsCompleted = 0;
+                GameManager.Count = 0;
+                GameManager.ChosenLvls.Clear();*/
+                Destroy(GM);
             }
         }
        
