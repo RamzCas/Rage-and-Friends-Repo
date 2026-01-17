@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("Arrays/List")]
     //public GameObject[] ChosenLvlsStage;
     public List<GameObject> ChosenLvls;
+    public List<GameObject> Gms;
     //public LvlBuilder[] lvlBuilders;
     //public List<Transform> SpawnPoints;
 
@@ -31,60 +32,37 @@ public class GameManager : MonoBehaviour
     public bool GameInPlay;
     public bool LoadNewScene;
     public bool ReloadLvls;
+    public int Count;
 
     private GameObject Spawn;
     private void Awake()
     {
        Spawn = GameObject.FindWithTag("Spawn");
-        DontDestroyOnLoad(gameObject);
+
+        //DontDestroyOnLoad(gameObject);
 
         if (GameInPlay) 
         {
-            
-            /*Instantiate(ChosenLvls[0],Spawn.transform);
-            Instantiate(ChosenLvls[1],Spawn.transform);
-            Instantiate(ChosenLvls[2],Spawn.transform);*/
-
             Debug.Log("Create lvl");
+        }
 
-        /*    DontDestroyOnLoad(ChosenLvls[0]);
-            DontDestroyOnLoad(ChosenLvls[1]);
-            DontDestroyOnLoad(ChosenLvls[2]);*/
+        if (instance) 
+        {
+            Destroy(gameObject);
+        }
 
-            
+        else 
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
     }
 
     private void Update()
     {
+        Resets();
         ReloadScene();
         NextLvl();
-       /* if (GameInPlay) 
-        {
-          
-            if (LevelsCompleted == 1)
-            {
-                ChosenLvls[0].SetActive(true);
-                ChosenLvls[1].SetActive(false);
-                ChosenLvls[2].SetActive(false);
-                //Debug.Log("Play lvl 1");
-            }
-
-            if (LevelsCompleted == 2)
-            {
-                ChosenLvls[0].SetActive(false);
-                ChosenLvls[1].SetActive(true);
-                ChosenLvls[2].SetActive(false);
-            }
-
-            if (LevelsCompleted == 3)
-            {
-                ChosenLvls[0].SetActive(false);
-                ChosenLvls[1].SetActive(false);
-                ChosenLvls[2].SetActive(true);
-            }
-        }*/
-       
     }
 
     public void NextLvl() 
@@ -99,7 +77,6 @@ public class GameManager : MonoBehaviour
                 ChosenLvls[0].SetActive(true);
                 ChosenLvls[1].SetActive(false);
                 ChosenLvls[2].SetActive(false);
-                //Debug.Log("Play lvl 1");
             }
 
             if (LevelsCompleted == 2)
@@ -131,147 +108,25 @@ public class GameManager : MonoBehaviour
             Debug.Log("reload Scene");
             SceneManager.LoadScene("Game");
             LoadNewScene = false;
-            //GameInPlay = true;
-         
-
-           /* if (GameInPlay) 
-            {
-                CanvasHolder.SetActive(false);
-            }*/
         }
     }
 
-   /* public void BuildLevel() 
+    public void Resets() 
     {
-        StartCoroutine(LoadLvl());
-    }*/
-
-
-    /*private IEnumerator LoadLvl() 
-    {
-        yield return new WaitForSeconds(0);
-
-        GameInPlay = true;
-        LevelsCompleted += 1;
-        CanvasHolder.SetActive(false);
-
-        //========Lvl1==============
-
-        if (lvlBuilders[0].Lvl1Selected)
+        if(Count < 3 && GameInPlay) 
         {
-            GameObject Lvl = Instantiate(Lvl1, SpawnPoints[0].transform);
-            ChosenLvls.Add(Lvl);
+            Debug.Log("Wahallah");
+            SceneManager.LoadScene(4);
+            GameInPlay = false;
+            Count = 0;
+            ChosenLvls.Clear();
+            LevelsCompleted = 0;
+            
         }
 
-        if (lvlBuilders[0].Lvl2Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl2, SpawnPoints[0].transform);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[0].Lvl3Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl3, SpawnPoints[0].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[0].Lvl4Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl4, SpawnPoints[0].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[0].Lvl5Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl5, SpawnPoints[0].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[0].Lvl6Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl6, SpawnPoints[0].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        //==========Lvl2=================
-
-        if (lvlBuilders[1].Lvl1Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl1, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[1].Lvl2Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl2, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[1].Lvl3Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl3, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[1].Lvl4Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl4, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[1].Lvl5Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl5, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[1].Lvl6Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl6, SpawnPoints[1].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        //=========Lvl3===============
-
-
-        if (lvlBuilders[2].Lvl1Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl1, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[2].Lvl2Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl2, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[2].Lvl3Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl3, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[2].Lvl4Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl4, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[2].Lvl5Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl5, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        if (lvlBuilders[2].Lvl6Selected)
-        {
-            GameObject Lvl = Instantiate(Lvl6, SpawnPoints[2].transform.parent);
-            ChosenLvls.Add(Lvl);
-        }
-
-        SceneManager.LoadSceneAsync(5);
-    }*/
+      
+        
+    }
 }
     
 

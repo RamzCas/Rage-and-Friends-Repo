@@ -16,4 +16,12 @@ public class SpawnLvls : MonoBehaviour
         Instantiate(GameManager.ChosenLvls[1], Spawn.transform);
         Instantiate(GameManager.ChosenLvls[2], Spawn.transform);
     }
+
+    private void Update()
+    {
+       /* if(GameManager.Count > 3 && GameManager.GameInPlay) 
+        {
+            Debug.Log("Wahalla");
+        }*/
+    }
 }

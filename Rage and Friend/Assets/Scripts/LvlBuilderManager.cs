@@ -41,34 +41,40 @@ public class LvlBuilderManager : MonoBehaviour
         if (lvlBuilders[0].Lvl1Selected)
         {
             GameManager.ChosenLvls.Add(Lvl1);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[0].Lvl2Selected)
         {
             GameManager.ChosenLvls.Add(Lvl2);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[0].Lvl3Selected)
         {
             
             GameManager.ChosenLvls.Add(Lvl3);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[0].Lvl4Selected)
         {
 
             GameManager.ChosenLvls.Add(Lvl4);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[0].Lvl5Selected)
         {
 
             GameManager.ChosenLvls.Add(Lvl5);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[0].Lvl6Selected)
         {
             GameManager.ChosenLvls.Add(Lvl6);
+            GameManager.Count += 1;
         }
 
         //==========Lvl2=================
@@ -76,31 +82,37 @@ public class LvlBuilderManager : MonoBehaviour
         if (lvlBuilders[1].Lvl1Selected)
         {
             GameManager.ChosenLvls.Add(Lvl1);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[1].Lvl2Selected)
         {
             GameManager.ChosenLvls.Add(Lvl2);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[1].Lvl3Selected)
         {
             GameManager.ChosenLvls.Add(Lvl3);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[1].Lvl4Selected)
         {
             GameManager.ChosenLvls.Add(Lvl4);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[1].Lvl5Selected)
         {
             GameManager.ChosenLvls.Add(Lvl5);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[1].Lvl6Selected)
         {
             GameManager.ChosenLvls.Add(Lvl6);
+            GameManager.Count += 1;
         }
 
         //=========Lvl3===============
@@ -109,36 +121,43 @@ public class LvlBuilderManager : MonoBehaviour
         if (lvlBuilders[2].Lvl1Selected)
         {
             GameManager.ChosenLvls.Add(Lvl1);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[2].Lvl2Selected)
         {
             GameManager.ChosenLvls.Add(Lvl2);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[2].Lvl3Selected)
         {
             GameManager.ChosenLvls.Add(Lvl3);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[2].Lvl4Selected)
         {
             GameManager.ChosenLvls.Add(Lvl4);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[2].Lvl5Selected)
         {
             GameManager.ChosenLvls.Add(Lvl5);
+            GameManager.Count += 1;
         }
 
         if (lvlBuilders[2].Lvl6Selected)
         {
             GameManager.ChosenLvls.Add(Lvl6);
+            GameManager.Count += 1;
         }
 
         GameManager.GameInPlay = true;
         GameManager.LevelsCompleted += 1;
 
         SceneManager.LoadSceneAsync(5);
+
     }
 }
