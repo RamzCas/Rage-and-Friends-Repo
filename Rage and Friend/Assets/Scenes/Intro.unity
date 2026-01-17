@@ -3635,7 +3635,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonManager
   LvlVid: {fileID: 0}
   PlayerVid: {fileID: 0}
+  TimePassed: 0
+  VidPlaying: 0
+  VidReset: 0
   Buttons: []
+  Videos: []
 --- !u!1 &1255739220
 GameObject:
   m_ObjectHideFlags: 0
